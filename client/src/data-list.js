@@ -125,6 +125,115 @@ const CrackersList =[
       ]
     },
     {
+      "category": "KIDS CRACKERS",
+      "items": [
+        {
+          "name": "Assorted Cartons Bag (10 Pcs)",
+          "tamilName": "கார்ட்டூன்"
+        },
+        {
+          "name": "Stone Box",
+          "tamilName": "ஸ்டோன்"
+        },
+        {
+          "name": "Chit put",
+          "tamilName": "சிட்டு புட்டு"
+        },
+        {
+          "name": "Chit put Dlx",
+          "tamilName": "சிட்டு புட்டு டீலக்ஸ்"
+        },
+        {
+          "name": "Asrafi Small",
+          "tamilName": "அஷ்ரபிக் சிறியது"
+        },
+        {
+          "name": "Asrafi Big",
+          "tamilName": "அஷ்ரபிக் பெரியது"
+        },
+        {
+          "name": "Snake Cartoon",
+          "tamilName": "பாம்பு மாத்திரை"
+        },
+        {
+          "name": "Heera Koti",
+          "tamilName": "ஹீரா கோட்டி"
+        },
+        {
+          "name": "Moon Light",
+          "tamilName": "மூன்லைட்"
+        },
+        {
+          "name": "Sun Light",
+          "tamilName": "சன் லைட்"
+        },
+        {
+          "name": "Star Light",
+          "tamilName": "ஸ்டார் லைட்"
+        },
+        {
+          "name": "Butterfly",
+          "tamilName": "பட்டர்பிளை"
+        },
+        {
+          "name": "Photo Flash",
+          "tamilName": "போட்டோ வெளிச்சம்"
+        },
+        {
+          "name": "Ganga Jamuna",
+          "tamilName": "கங்கா ஜமுனா"
+        },
+        {
+          "name": "1.5\" Twinkling Star",
+          "tamilName": "1.5 இன் ட்விங்க்லிங் ஸ்டார்"
+        },
+        {
+          "name": "4\" Twinkling Star Dlx",
+          "tamilName": "4 இன் ட்விங்க்லிங் ஸ்டார் டீலக்ஸ்"
+        },
+        {
+          "name": "Pensil (10 pcs) - 7 Cm",
+          "tamilName": "பென்சில் (10 பீஸ்) - 7 செ.மீ."
+        },
+        {
+          "name": "Pensil (10 pcs) - 10 Cm",
+          "tamilName": "பென்சில் (10 பீஸ்) - 10 செ.மீ."
+        },
+        {
+          "name": "Pensil (10 pcs) - 12 Cm",
+          "tamilName": "பென்சில் (10 பீஸ்) - 12 செ.மீ."
+        },
+        {
+          "name": "Pensil (10 pcs) - 18 Cm",
+          "tamilName": "பென்சில் (10 பீஸ்) - 18 செ.மீ."
+        },
+        {
+          "name": "Magic Pensil (3 pcs)",
+          "tamilName": "மேஜிக் பென்சில் (3 பீஸ்)"
+        },
+        {
+          "name": "Magic Pensil (5 pcs)",
+          "tamilName": "மேஜிக் பென்சில் (5 பீஸ்)"
+        },
+        {
+          "name": "Sivakasi Spl Pensil (2 pcs)",
+          "tamilName": "சிவகாசி ஸ்பெஷல் பென்சில் (2 பீஸ்)"
+        },
+        {
+          "name": "Selfi stick (3 pcs)",
+          "tamilName": "செல்பி ஸ்டிக் (3 பீஸ்)"
+        },
+        {
+          "name": "Selfi stick (5 pcs)",
+          "tamilName": "செல்பி ஸ்டிக் (5 பீஸ்)"
+        },
+        {
+          "name": "Smoke (5 Pcs)",
+          "tamilName": "புகை (5 பீஸ்)"
+        }
+      ]
+    },    
+    {
       "category": "SINGLE SOUND CRAKERS",
       "items": [
         { "name": "4\" Lakshmi Crakers", "rate": "24.00", "tamilName": "4\" லட்சுமி வெடி" },
