@@ -1,24 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState,useEffect} from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Home/home';
+import ConfirmListPage from './ConfirmList/confirmList';
+import { CrackersList } from './data-list';
 
 function App() {
+  const [selectedItems, setSelectedItems] = useState([]);
+  const [totalRate, setTotalRate] = useState(0);
+  const [crackers, setCrackers] = useState(CrackersList);
+  const [customerName, setCustomerName] = useState('');
+  const [customerNumber, setCustomerNumber] = useState('');
+  const [customerAddress, setCustomerAddress] = useState('');
+  const [downloaded, setDownloaded] = useState(false);
+  const [discountTotalRate, setDiscountTotalRate] = useState(0);
+
+  useEffect(()=>{
+    setCrackers(CrackersList);
+  },[downloaded])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home 
+          setSelectedItems={setSelectedItems} 
+          selectedItems={selectedItems} totalRate={totalRate} 
+          setTotalRate={setTotalRate}
+          crackers={crackers}
+          setCrackers={setCrackers}
+          customerName={customerName}
+          setCustomerName={setCustomerName}
+          customerNumber={customerNumber}
+          setCustomerNumber={setCustomerNumber}
+          customerAddress={customerAddress}
+          setCustomerAddress={setCustomerAddress}
+          setDiscountTotalRate={setDiscountTotalRate}
+          discountTotalRate={discountTotalRate}
+           />} />
+          <Route path="/confirmList" element={<ConfirmListPage 
+          setSelectedItems={setSelectedItems} 
+          selectedItems={selectedItems}
+           totalRate={totalRate}
+           setTotalRate={setTotalRate}
+           crackers={crackers}
+          setCrackers={setCrackers}
+          customerName={customerName}
+          setCustomerName={setCustomerName}
+          customerNumber={customerNumber}
+          setCustomerNumber={setCustomerNumber}
+          customerAddress={customerAddress}
+          setCustomerAddress={setCustomerAddress}
+          setDownloaded={setDownloaded}
+          downloaded={downloaded}
+          setDiscountTotalRate={setDiscountTotalRate}
+          discountTotalRate={discountTotalRate}
+           />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
