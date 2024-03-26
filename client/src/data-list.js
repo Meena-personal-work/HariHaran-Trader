@@ -40,8 +40,8 @@ const CrackersList =[
     {
       "category": "GROUND CHAKKARS SPL BRANDED ITEMS",
       "items": [
-        { "name": "Ground Chakkar - Big (10 Pcs)", "rate": "60.00", "tamilName": "10 பீஸ் பெரியது சக்கரம்" },
-        { "name": "Ground Chakkar - Big (25 Pcs)", "rate": "140.00", "tamilName": "25 பீஸ் பெரியது சக்கரம்" },
+        { "name": "Ground Chakkar - Big (10 Pcs)", "rate": "60.00", "tamilName": "10 பீஸ் சக்கரம் பெரியது" },
+        { "name": "Ground Chakkar - Big (25 Pcs)", "rate": "140.00", "tamilName": "25 பீஸ் சக்கரம் பெரியது" },
         { "name": "Ground Chakkar - Asoka", "rate": "100.00", "tamilName": "சக்கரம் அசோகா" },
         { "name": "Ground Chakkar - Spl", "rate": "120.00", "tamilName": "சக்கரம் ஸ்பெஷல்" },
         { "name": "Ground Chakkar - Dlx", "rate": "200.00", "tamilName": "சக்கரம் டீலக்ஸ்" },
@@ -99,7 +99,7 @@ const CrackersList =[
       "category": "NEW ARRIVAL ITEMS",
       "items": [
         { "name": "Cricket Bat & Ball", "rate": "400.00", "tamilName": "கிரிக்கெட் பேட் & பந்து" },
-        { "name": "Sword (Vaazh)", "rate": "200.00", "tamilName": "வாள் (வாழ்)" },
+        { "name": "Sword", "rate": "200.00", "tamilName": "வாள்" },
         { "name": "Rotating Sparklers", "rate": "400.00", "tamilName": "சுற்றும் கம்பி" },
         { "name": "Touch and Touch (5 Pcs)", "rate": "150.00", "tamilName": "டச் & டச் (5 பீஸ்)" },
         { "name": "Wire Chakkaram", "rate": "300.00", "tamilName": "வயர் சக்கரம்" },
@@ -116,8 +116,8 @@ const CrackersList =[
         { "name": "Peacock - Bada", "rate": "700.00", "tamilName": "பெரிய மயில்" },
         { "name": "Peacock Feather (5 Pcs)", "rate": "150.00", "tamilName": "மயில் இறகு (5 பீஸ்)" },
         { "name": "Bambara (10 Pcs)", "rate": "160.00", "tamilName": "பம்பரா (10 பீஸ்)" },
-        { "name": "Love Butterfly (4 Function)", "rate": "600.00", "tamilName": "லவ் பட்டர்பிளை (4 பன்னாட்சி)" },
-        { "name": "Love Fire (5 Function)", "rate": "600.00", "tamilName": "லவ் ஃபயர் (5 பன்னாட்சி)" },
+        { "name": "Love Butterfly (4 Function)", "rate": "600.00", "tamilName": "லவ் பட்டர்பிளை" },
+        { "name": "Love Fire (5 Function)", "rate": "600.00", "tamilName": "லவ் ஃபயர்" },
         { "name": "Drone", "rate": "300.00", "tamilName": "ட்ரோன்" },
         { "name": "Helicopter", "rate": "160.00", "tamilName": "ஹெலிகாப்டர்" },
         { "name": "Kerala Spl Olai Vedi (25 Pcs)", "rate": "300.00", "tamilName": "கேரளா ஸ்பெஷல் ஓலை வெடி (25 பீஸ்)" },
@@ -129,107 +129,133 @@ const CrackersList =[
       "items": [
         {
           "name": "Assorted Cartons Bag (10 Pcs)",
-          "tamilName": "கார்ட்டூன்"
+          "tamilName": "கார்ட்டூன்",
+          "rate": "30.00"
         },
         {
           "name": "Stone Box",
-          "tamilName": "ஸ்டோன்"
+          "tamilName": "ஸ்டோன்",
+          "rate": "20.00"
         },
         {
           "name": "Chit put",
-          "tamilName": "சிட்டு புட்டு"
+          "tamilName": "சிட்டு புட்டு",
+          "rate": "40.00"
         },
         {
           "name": "Chit put Dlx",
-          "tamilName": "சிட்டு புட்டு டீலக்ஸ்"
+          "tamilName": "சிட்டு புட்டு டீலக்ஸ்",
+          "rate": "60.00"
         },
         {
           "name": "Asrafi Small",
-          "tamilName": "அஷ்ரபிக் சிறியது"
+          "tamilName": "அஷ்ரபிக் சிறியது",
+          "rate": "40.00"
         },
         {
           "name": "Asrafi Big",
-          "tamilName": "அஷ்ரபிக் பெரியது"
+          "tamilName": "அஷ்ரபிக் பெரியது",
+          "rate": "60.00"
         },
         {
           "name": "Snake Cartoon",
-          "tamilName": "பாம்பு மாத்திரை"
+          "tamilName": "பாம்பு மாத்திரை",
+          "rate": "60.00"
         },
         {
           "name": "Heera Koti",
-          "tamilName": "ஹீரா கோட்டி"
+          "tamilName": "ஹீரா கோட்டி",
+          "rate": "100.00"
         },
         {
           "name": "Moon Light",
-          "tamilName": "மூன்லைட்"
+          "tamilName": "மூன்லைட்",
+          "rate": "150.00"
         },
         {
           "name": "Sun Light",
-          "tamilName": "சன் லைட்"
+          "tamilName": "சன் லைட்",
+          "rate": "150.00"
         },
         {
           "name": "Star Light",
-          "tamilName": "ஸ்டார் லைட்"
+          "tamilName": "ஸ்டார் லைட்",
+          "rate": "150.00"
         },
         {
           "name": "Butterfly",
-          "tamilName": "பட்டர்பிளை"
+          "tamilName": "பட்டர்பிளை",
+          "rate": "150.00"
         },
         {
           "name": "Photo Flash",
-          "tamilName": "போட்டோ வெளிச்சம்"
+          "tamilName": "போட்டோ வெளிச்சம்",
+          "rate": "150.00"
         },
         {
           "name": "Ganga Jamuna",
-          "tamilName": "கங்கா ஜமுனா"
+          "tamilName": "கங்கா ஜமுனா",
+          "rate": "30.00"
         },
         {
           "name": "1.5\" Twinkling Star",
-          "tamilName": "1.5 இன் ட்விங்க்லிங் ஸ்டார்"
+          "tamilName": "சின்ன சாட்டை",
+          "rate": "80.00"
         },
         {
           "name": "4\" Twinkling Star Dlx",
-          "tamilName": "4 இன் ட்விங்க்லிங் ஸ்டார் டீலக்ஸ்"
+          "tamilName": "பெரிய சாட்டை",
+          "rate": "40.00"
         },
         {
           "name": "Pensil (10 pcs) - 7 Cm",
-          "tamilName": "பென்சில் (10 பீஸ்) - 7 செ.மீ."
+          "tamilName": "பென்சில் (10 பீஸ்) - 7 செ.மீ.",
+          "rate": "160.00"
         },
         {
           "name": "Pensil (10 pcs) - 10 Cm",
-          "tamilName": "பென்சில் (10 பீஸ்) - 10 செ.மீ."
+          "tamilName": "பென்சில் (10 பீஸ்) - 10 செ.மீ.",
+          "rate": "200.00"
         },
         {
           "name": "Pensil (10 pcs) - 12 Cm",
-          "tamilName": "பென்சில் (10 பீஸ்) - 12 செ.மீ."
+          "tamilName": "பென்சில் (10 பீஸ்) - 12 செ.மீ.",
+          "rate": "300.00"
         },
         {
           "name": "Pensil (10 pcs) - 18 Cm",
-          "tamilName": "பென்சில் (10 பீஸ்) - 18 செ.மீ."
+          "tamilName": "பென்சில் (10 பீஸ்) - 18 செ.மீ.",
+          "rate": "200.00"
         },
         {
           "name": "Magic Pensil (3 pcs)",
-          "tamilName": "மேஜிக் பென்சில் (3 பீஸ்)"
+          "tamilName": "மேஜிக் பென்சில் (3 பீஸ்)",
+          "rate": "200.00"
         },
         {
           "name": "Magic Pensil (5 pcs)",
-          "tamilName": "மேஜிக் பென்சில் (5 பீஸ்)"
+          "tamilName": "மேஜிக் பென்சில் (5 பீஸ்)",
+          "rate": "300.00"
         },
         {
           "name": "Sivakasi Spl Pensil (2 pcs)",
-          "tamilName": "சிவகாசி ஸ்பெஷல் பென்சில் (2 பீஸ்)"
+          "tamilName": "சிவகாசி ஸ்பெஷல் பென்சில் (2 பீஸ்)",
+          "rate": "150.00"
         },
         {
           "name": "Selfi stick (3 pcs)",
-          "tamilName": "செல்பி ஸ்டிக் (3 பீஸ்)"
+          "tamilName": "செல்பி ஸ்டிக் (3 பீஸ்)",
+          "rate": "250.00"
         },
         {
           "name": "Selfi stick (5 pcs)",
-          "tamilName": "செல்பி ஸ்டிக் (5 பீஸ்)"
+          "tamilName": "செல்பி ஸ்டிக் (5 பீஸ்)",
+          "rate": "400.00"
         },
         {
           "name": "Smoke (5 Pcs)",
-          "tamilName": "புகை (5 பீஸ்)"
+          "tamilName": "புகை பென்சில்(5 பீஸ்)",
+          "rate": "150.00"
         }
       ]
     },    
@@ -250,8 +276,8 @@ const CrackersList =[
     {
       "category": "BIJILIES",
       "items": [
-        { "name": "Red Bijili", "rate": "40.00", "tamilName": "சிவப்பு பிஜிலி" },
-        { "name": "Stipped Bijili", "rate": "44.00", "tamilName": "ஸ்டிரிப் பிஜிலி" }
+        { "name": "Red Bijili", "rate": "40.00", "tamilName": "பிஜிலி / மிளகாய் பட்டாசு" },
+        { "name": "Stipped Bijili", "rate": "44.00", "tamilName": "வரி பிஜிலி" }
     ]      
     },
     {
@@ -286,7 +312,7 @@ const CrackersList =[
       "category": "PAPER BOMB",
       "items": [
         { "name": "Big Boss - 1/4 kg", "rate": "80.00", "tamilName": "பேப்பர் வெடி 1/4 கிலோ" },
-        { "name": "Bouncer - 1/4 kg (Colour Paper Bomb)", "rate": "100.00", "tamilName": "பேப்பர் வெடி 1/4 கிலோ கலர் பேப்பர் வெடி" },
+        { "name": "Big Boss - 1/4 kg - Colour", "rate": "100.00", "tamilName": "பேப்பர் வெடி 1/4 கிலோ கலர்" },
         { "name": "Big Boss - 1/2 kg", "rate": "160.00", "tamilName": "பேப்பர் வெடி 1/2 கிலோ" },
         { "name": "Big Boss - 1 kg", "rate": "300.00", "tamilName": "பேப்பர் வெடி 1 கிலோ" },
         { "name": "Marriage Sound", "rate": "100.00", "tamilName": "மேரேஜ் சவுண்ட்" },
@@ -352,7 +378,7 @@ const CrackersList =[
       "items": [
         { "name": "Sweet - 16", "rate": "750.00", "tamilName": "ஸ்வீட் - 16" },
         { "name": "25 Shot", "rate": "1500.00", "tamilName": "25 ஷாட்" },
-        { "name": "25 Shot - Sizzling", "rate": "1500.00", "tamilName": "25 ஷாட்லிங்" },
+        { "name": "25 Shot - Sizzling", "rate": "1500.00", "tamilName": "25 ஷாட்-ஷீலிங்" },
         { "name": "50 Shot", "rate": "3000.00", "tamilName": "50 ஷாட்" },
         { "name": "100 Shot", "rate": "7000.00", "tamilName": "100 ஷாட்" }
     ]      
