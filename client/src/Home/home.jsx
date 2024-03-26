@@ -2,13 +2,11 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-icons';
-import image from './discount.png';
 
 import './home.css';
 
-const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, setDiscountTotalRate, discountTotalRate }) => {
+const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, setDiscountTotalRate }) => {
   const navigate = useNavigate();
-
   // Function to handle quantity change
   const handleQuantityChange = (categoryIndex, itemIndex, quantity) => {
     const updatedCrackers = crackers.map((category, cIndex) => {

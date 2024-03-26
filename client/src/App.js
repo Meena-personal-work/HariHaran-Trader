@@ -24,7 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home 
           setSelectedItems={setSelectedItems} 
-          selectedItems={selectedItems} totalRate={totalRate} 
+          totalRate={totalRate} 
           setTotalRate={setTotalRate}
           crackers={crackers}
           setCrackers={setCrackers}
@@ -35,7 +35,6 @@ function App() {
           customerAddress={customerAddress}
           setCustomerAddress={setCustomerAddress}
           setDiscountTotalRate={setDiscountTotalRate}
-          discountTotalRate={discountTotalRate}
            />} />
           <Route path="/confirmList" element={<ConfirmListPage 
           setSelectedItems={setSelectedItems} 
