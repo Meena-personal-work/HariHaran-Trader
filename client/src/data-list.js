@@ -300,8 +300,8 @@ const CrackersList =[
       "category": "BOMBS",
       "items": [
         { "name": "Bullet Bomb", "rate": "40.00", "tamilName": "புல்லட் அணுகுண்டு" },
-        { "name": "Atom Bomb - Big Green", "rate": "80.00", "tamilName": "ஆட்டோம் அணுகுண்டு - பெரிய பச்சை" },
-        { "name": "Hydro Bomb Green", "rate": "100.00", "tamilName": "ஹைட்ரோ அணுகுண்டு பச்சை" },
+        { "name": "Atom Bomb - Big Green", "rate": "80.00", "tamilName": "ஆட்டோம் அணுகுண்டு" },
+        { "name": "Hydro Bomb Green", "rate": "100.00", "tamilName": "ஹைட்ரோ அணுகுண்டு" },
         { "name": "King of King Bomb (3 Ply)", "rate": "120.00", "tamilName": "கிங் / 3 சுத்து அணுகுண்டு" },
         { "name": "Classic Bomb (5 Ply)", "rate": "150.00", "tamilName": "கிளாசிக் / 5 சுத்து அணுகுண்டு" },
         { "name": "Deluxe Bomb", "rate": "250.00", "tamilName": "டீலக்ஸ் அணுகுண்டு" },
