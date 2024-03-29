@@ -150,7 +150,6 @@ const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers
             <FontAwesomeIcon icon={faPhone} className='fontawesomeiconphone' />
             9524640004
           </div>
-          
           <div style={{ display: 'flex', color: 'white', alignItems: 'center' }}><FontAwesomeIcon icon={faEnvelope} className='fontawesomeiconphone' />
           jaiganeshagencies.sivakasi@gmail.com</div>
         </div>
