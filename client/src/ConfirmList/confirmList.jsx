@@ -87,9 +87,8 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     }, 3000);
   };
 
-  function generateOrderNumber() {
-    const currentDate = new Date();
-    const time = currentDate.getTime();
+  const generateNumber = () => {
+    const time = Date.now();
     return time;
   }
 
@@ -167,7 +166,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
             <Document>
               <Page style={{ borderWidth: 1, borderStyle: 'solid', padding: 20 }}>
                 <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' }}>List Of Order Placed</Text>
-                <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center' }}>Order Number: {generateOrderNumber}</Text>
+                <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center' }}>Order Number: {generateNumber()}</Text>
                 <View style={{ flexDirection: 'row', marginTop: 3 }}>
                   <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Cracker Name</Text>
                   <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Tamil Cracker Name</Text>
