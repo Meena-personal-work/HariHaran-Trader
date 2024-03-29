@@ -148,11 +148,11 @@ const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers
           
           <div style={{ display: 'flex', color: 'white',alignItems: 'center' }}>
             <FontAwesomeIcon icon={faPhone} className='fontawesomeiconphone' />
-            1800 123 4567
+            9524640004
           </div>
           
           <div style={{ display: 'flex', color: 'white', alignItems: 'center' }}><FontAwesomeIcon icon={faEnvelope} className='fontawesomeiconphone' />
-            info@example .com</div>
+          jaiganeshagencies.sivakasi@gmail.com</div>
         </div>
       </div>
 
