@@ -20,11 +20,11 @@
 
 .fontawesomeiconphone {
   color: yellow;
-  margin-right: 14px;
+  margin-right: 3px;
 }
 
 .contact-info {
-  width: 490px;
+  width: 515px;
   height: 65px;
   font-size: unset;
   display: flex;
@@ -225,6 +225,13 @@
   text-align: center;
 }
 
+.dropdown-input-container-giftBox {
+  cursor: pointer;
+  height: 35px;
+  width: 60%;
+  text-align: center;
+}
+
 .input-container-informations {
   display: flex;
   justify-content: center;
@@ -355,6 +362,11 @@
 
   .dropdown-input-container {
     width: 115px;
+    height:33px;
+  }
+
+  .dropdown-input-container-giftBox {
+    width: 115px;
     height:50px;
   }
 
@@ -367,15 +379,21 @@
   }
 
   .font-style-heading {
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 24.5px;
   }
 
   .contact-info {
-    width: 140px;
-    font-size: 12px;
+    width: 181px;
+    font-size: 10px;
     height: 45px;
     justify-content: space-around;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .font-style-heading {
+    font-size: 13px;
   }
 }

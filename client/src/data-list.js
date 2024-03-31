@@ -461,6 +461,32 @@ const CrackersList =[
     }    
 ]
 
+const giftBox = [
+  {
+    "category": "GIFT BOX",
+    "items": [
+      { "items": "21 items", "rate": 250 },
+      { "items": "25 items", "rate": 300 },
+      { "items": "30 items", "rate": 375 },
+      { "items": "35 items", "rate": 450 },
+      { "items": "40 items", "rate": 550 },
+      { "items": "50 items", "rate": 750 },
+      { "items": "60 items", "rate": 1000 }
+    ]
+  },
+  {
+    "category": "FAMILY PACK",
+    "items": [
+      { "items": "4000 Value Pack", "rate": 2000 },
+      { "items": "6000 Value Pack", "rate": 3000 },
+      { "items": "8000 Value Pack", "rate": 4000 },
+      { "items": "10000 Value Pack", "rate": 5000 },
+      { "items": "15000 Value Pack", "rate": 7500 },
+      { "items": "20000 value pack", "rate": 10000 }
+    ]
+  }
+]
+
 module.exports ={
-  CrackersList
+  CrackersList,giftBox
 }
