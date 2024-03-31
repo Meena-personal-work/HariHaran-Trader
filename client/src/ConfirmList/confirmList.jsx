@@ -100,7 +100,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     handleClearForm();
     setDownloaded(!downloaded)
     setTimeout(() => {
-      alert('Download complete. Click OK to navigate');
+      alert('Download completed successfully');
       navigate('/');
     }, 3000);
   }
@@ -216,7 +216,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
             </React.Fragment>
           ))}
           <tr>
-            <td colSpan="3" style={{ fontWeight: 'bold', backgroundColor: '#f1eeee' }}>Total Amount Of Special Packs & Boxes</td>
+            <td colSpan="3" style={{ fontWeight: 'bold', backgroundColor: '#f1eeee',fontSize:14 }}>Total Amount Of Special Packs & Boxes</td>
             <td className='tablecell' style={{ fontWeight: 'bold', backgroundColor: '#f1eeee' }}>₹{anotherTotalRate}</td>
           </tr>
         </tbody>
@@ -234,14 +234,17 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
               <Page style={{ borderWidth: 1, borderStyle: 'solid', padding: 20 }}>
                 <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' }}>List Of Order Placed</Text>
                 <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', fontSize: '14px', marginTop: 12 }}>Order Number: {generateNumber()}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Order Date: {getOrderDate()}</Text>
-                <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
-                  <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Serial Number</Text>
-                  <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Cracker Name</Text>
-                  <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Tamil Cracker Name</Text>
-                  <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Quantity</Text>
-                  <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Rate (INR)</Text>
-                </View>
-                {Object.keys(groupedItems).map((category, categoryIndex) => (
+                {selectedItemsPdf.length > 0 && (
+                  <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
+                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Serial Number</Text>
+                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Cracker Name</Text>
+                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Tamil Cracker Name</Text>
+                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Quantity</Text>
+                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Rate (INR)</Text>
+                  </View>
+                )}
+
+                {selectedItemsPdf.length > 0 && Object.keys(groupedItems).map((category, categoryIndex) => (
                   <View key={categoryIndex}>
                     {groupedItems[category].map((item, itemIndex) => {
                       serialNumberPdf++;
@@ -258,6 +261,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                     })}
                   </View>
                 ))}
+
 
                 {GiftBoxPdf.length > 0 && (
                   <>
@@ -292,7 +296,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                 <Text style={{ fontSize: 14, marginTop: 10, fontWeight: 'bold', wordBreak: 'break-word', width: '75%' }}>Customer Name : {customerName}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Customer Number : {customerNumber}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 6 }}>Customer Address : {customerAddress}</Text>
-                <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 17 }}>Total Amount: {totalRate.toFixed(2)}</Text>
+                {selectedItems.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 17 }}>Total Amount: {totalRate.toFixed(2)}</Text>}
                 {anotherTable.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Total Amount Of Special Packs & Boxes : {anotherTotalRate.toFixed(2)}</Text>}
 
               </Page>

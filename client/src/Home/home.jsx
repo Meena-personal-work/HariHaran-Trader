@@ -91,77 +91,86 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
     const isNumberValid = /^[0-9]{10}$/.test(customerNumber);
     const isAddressValid = customerAddress.trim().length > 0;
 
-    // Check if any item is selected without choosing the quantity
+    // Check if any item is selected without choosing the quantity for regular crackers
     const invalidItems = [];
     const isQuantityValid = crackers.every(category => {
-      return category.items.every(item => {
-        if (item.checked && (!item.quantity || item.quantity <= 0)) {
-          invalidItems.push(item.name);
-          return false;
-        }
-        return true;
-      });
+        return category.items.every(item => {
+            if (item.checked && (!item.quantity || item.quantity <= 0)) {
+                invalidItems.push(item.name);
+                return false;
+            }
+            return true;
+        });
     });
 
-    // Construct the error message for quantity validation
+    // Construct the error message for regular crackers quantity validation
     let quantityErrorMessage = '';
     if (invalidItems.length > 0) {
-      quantityErrorMessage = `Please select quantity for the following items: ${invalidItems.join(', ')}.`;
+        quantityErrorMessage = `Please select quantity for the following items: ${invalidItems.join(', ')}.`;
     }
 
     // Check if any item is selected without choosing the quantity for giftBoxCrackers table
     const giftBoxInvalidItems = [];
     const isGiftBoxQuantityValid = giftBoxCrackers.every(category => {
-      return category.items.every(item => {
-        if (item.checked && (!item.quantity || item.quantity <= 0)) {
-          invalidItems.push(item.name);
-          return false;
-        }
-        return true;
-      });
+        return category.items.every(item => {
+            if (item.checked && (!item.quantity || item.quantity <= 0)) {
+                giftBoxInvalidItems.push(item.items);
+                return false;
+            }
+            return true;
+        });
     });
 
     // Construct the error message for giftBoxCrackers table quantity validation
     let giftBoxQuantityErrorMessage = '';
     if (giftBoxInvalidItems.length > 0) {
-      giftBoxQuantityErrorMessage = `Please select quantity for the following gift box crackers: ${giftBoxInvalidItems.join(', ')}.`;
+        giftBoxQuantityErrorMessage = `Please select quantity for the following gift box crackers: ${giftBoxInvalidItems.join(', ')}.`;
     }
 
+    // Check if at least one item is selected from either crackers or giftBoxCrackers
+    const isCrackerChosen = crackers.some(category => category.items.some(item => item.checked));
+    const isGiftBoxCrackerChosen = giftBoxCrackers.some(category => category.items.some(item => item.checked));
 
-    // Check if all validations pass
-    if (isNameValid && isNumberValid && isAddressValid && isQuantityValid && isGiftBoxQuantityValid) {
-      // Here you can implement your submission logic
-      alert('Kindly Confirm Your Order');
-      const selectedCrackers = crackers.flatMap(category =>
-        category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
-      );
+    // Check if all validations pass including the requirement of choosing at least one cracker
+    if (isNameValid && isNumberValid && isAddressValid && isQuantityValid && isGiftBoxQuantityValid && (isCrackerChosen || isGiftBoxCrackerChosen)) {
+        // Here you can implement your submission logic
+        alert('Kindly Confirm Your Order');
+        const selectedCrackers = crackers.flatMap(category =>
+            category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
+        );
 
-      const selectedGiftBoxCrackers = giftBoxCrackers.flatMap(category =>
-        category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
-      );
+        const selectedGiftBoxCrackers = giftBoxCrackers.flatMap(category =>
+            category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
+        );
 
-      setAnotherTable(selectedGiftBoxCrackers);
-      setSelectedItems(selectedCrackers);
-      navigate('/confirmList');
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+        setAnotherTable(selectedGiftBoxCrackers);
+        setSelectedItems(selectedCrackers);
+        navigate('/confirmList');
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     } else {
-      // If validation fails, show an alert with specific error messages
-      let errorMessage = '';
-      if (!isNameValid) {
-        errorMessage += 'Please enter the name.\n';
-      }
-      if (!isNumberValid) {
-        errorMessage += 'Please enter a valid 10-digit number for the contact number.\n';
-      }
-      if (!isAddressValid) {
-        errorMessage += 'Please enter the address.\n';
-      }
-      errorMessage += quantityErrorMessage;
-      errorMessage += giftBoxQuantityErrorMessage;
-      alert(errorMessage);
+        // If validation fails, show an alert with specific error messages
+        let errorMessage = '';
+        if (!isNameValid) {
+            errorMessage += 'Please enter the name.\n';
+        }
+        if (!isNumberValid) {
+            errorMessage += 'Please enter a valid 10-digit number for the contact number.\n';
+        }
+        if (!isAddressValid) {
+            errorMessage += 'Please enter the address.\n';
+        }
+        errorMessage += quantityErrorMessage;
+        errorMessage += giftBoxQuantityErrorMessage;
+
+        // Add error message for not choosing at least one cracker type
+        if (!(isCrackerChosen || isGiftBoxCrackerChosen)) {
+            errorMessage += 'Please choose at least one item from either crackers or special packs.\n';
+        }
+
+        alert(errorMessage);
     }
-  };
+};
 
   const handleAnotherQuantityChange = (categoryIndex, itemIndex, quantity) => {
     const updatedGiftBoxCrackers = giftBoxCrackers.map((category, cIndex) => {
@@ -226,7 +235,7 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
 
       <div className='content-container'>
         <div className='sub-heading'>
-          <h4 className='font-style-sub-heading'>Explore Our Product Catalogue and Place Your Order Today!<span className='discount-text'>(50% Discount)</span><img src={image} alt='loading...' className='font-style-sub-heading-discount'></img></h4>
+          <h4 className='font-style-sub-heading'>Explore Our Product Catalogue and Place Your Order Today!</h4>
           {/* <div className='font-style-sub-heading-discount'></div> */}
         </div>
         <div className='sub-container'>
