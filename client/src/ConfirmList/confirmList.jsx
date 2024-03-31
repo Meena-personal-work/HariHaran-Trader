@@ -152,9 +152,9 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
         {selectedItems.length > 0 && <table className='table' align='center' style={{ width: '85%' }}>
           <thead>
             <tr className='tablecell' style={{ fontSize: '14px' }}>
-              <th className='tablecell'>Serial Number</th>
+              <th className='tablecell'>S.No</th>
               <th className='tablecell'>Cracker Name</th>
-              <th className='tablecell' style={{ fontSize: '13px' }}>Quantity</th>
+              <th className='tablecell' style={{ fontSize: '13px' }}>Qty</th>
               <th className='tablecell'>Rate</th>
             </tr>
           </thead>
@@ -189,9 +189,9 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
             <td colSpan="4" style={{ fontWeight: 'bold', backgroundColor: '#f1eeee' }}>Special Packs & Boxes</td>
           </tr>
           <tr className='tablecell' style={{ fontSize: '14px' }}>
-            <th className='tablecell'>Serial Number</th>
+            <th className='tablecell'>S.No</th>
             <th className='tablecell'>Items</th>
-            <th className='tablecell'>Quantity</th>
+            <th className='tablecell'>Qty</th>
             <th className='tablecell'>Rate</th>
           </tr>
         </thead>
@@ -234,42 +234,47 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
               <Page style={{ borderWidth: 1, borderStyle: 'solid', padding: 20 }}>
                 <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' }}>List Of Order Placed</Text>
                 <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', fontSize: '14px', marginTop: 12 }}>Order Number: {generateNumber()}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Order Date: {getOrderDate()}</Text>
-                {selectedItemsPdf.length > 0 && (
-                  <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
-                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Serial Number</Text>
-                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Cracker Name</Text>
-                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Tamil Cracker Name</Text>
-                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Quantity</Text>
-                    <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Rate (INR)</Text>
-                  </View>
-                )}
+                <View>
+  {selectedItemsPdf.length > 0 && (
+    <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>S.No</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Cracker Name</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Tamil Cracker Name</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Qty</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Rate (INR)</Text>
+    </View>
+  )}
 
-                {selectedItemsPdf.length > 0 && Object.keys(groupedItems).map((category, categoryIndex) => (
-                  <View key={categoryIndex}>
-                    {groupedItems[category].map((item, itemIndex) => {
-                      serialNumberPdf++;
+  {selectedItemsPdf.length > 0 && Object.keys(groupedItems).map((category, categoryIndex) => (
+    <View key={categoryIndex}>
+      {groupedItems[category].map((item, itemIndex) => {
+        serialNumberPdf++;
 
-                      return (
-                        <View key={`${categoryIndex}-${itemIndex}`} style={{ flexDirection: 'row' }}>
-                          <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{serialNumberPdf}</Text> {/* Serial number column */}
-                          <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.name}</Text>
-                          <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12, fontFamily: 'Noto Sans Tamil' }}>{item.tamilName}</Text>
-                          <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.quantity}</Text>
-                          <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
-                        </View>
-                      );
-                    })}
-                  </View>
-                ))}
+        return (
+          <View key={`${categoryIndex}-${itemIndex}`} style={{ flexDirection: 'row' }}>
+            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{serialNumberPdf}</Text> {/* Serial number column */}
+            <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.name}</Text>
+            <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12, fontFamily: 'Noto Sans Tamil' }}>{item.tamilName}</Text>
+            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.quantity}</Text>
+            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
+          </View>
+        );
+      })}
+    </View>
+  ))}
+  
+  {/* Total amount and total amount with discount */}
+  {selectedItems.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 17 }}>Total Amount: {totalRate.toFixed(2)}</Text>}
+</View>
 
-
+<View>
                 {GiftBoxPdf.length > 0 && (
                   <>
                     <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', marginTop: 20, fontSize: 13 }}>Special Packs & Boxes</Text>
                     <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
-                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Serial Number</Text>
+                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>S.No</Text>
                       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Items</Text>
-                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Quantity</Text>
+                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Qty</Text>
                       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Rate</Text>
                     </View>
                     {Object.keys(groupedSplPacksItems).map((category, categoryIndex) => (
@@ -281,7 +286,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                             <View key={`${categoryIndex}-${itemIndex}`} style={{ flexDirection: 'row' }}>
                               <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{serialNumberGiftBoxPdf}</Text>
                               <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.items}</Text>
-                              <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.quantity}</Text>
+                              <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12}}>{item.quantity}</Text>
                               <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
                             </View>
                           );
@@ -291,13 +296,15 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
 
                   </>
                 )}
+                {anotherTable.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Total Amount Of Special Packs & Boxes : {anotherTotalRate.toFixed(2)}</Text>}
+
+                </View>
 
                 <Text style={{ fontWeight: '700', display: 'flex', alignItems: 'center', backgroundColor: '#f1eeee', fontSize: '15px', minHeight: '22px', marginTop: '40px' }}>Customer Information</Text>
                 <Text style={{ fontSize: 14, marginTop: 10, fontWeight: 'bold', wordBreak: 'break-word', width: '75%' }}>Customer Name : {customerName}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Customer Number : {customerNumber}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 6 }}>Customer Address : {customerAddress}</Text>
-                {selectedItems.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 17 }}>Total Amount: {totalRate.toFixed(2)}</Text>}
-                {anotherTable.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Total Amount Of Special Packs & Boxes : {anotherTotalRate.toFixed(2)}</Text>}
+                <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 15 }}>Overall Total Amount : {totalRate + anotherTotalRate}</Text>
 
               </Page>
             </Document>
