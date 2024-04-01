@@ -237,11 +237,11 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                 <View>
   {selectedItemsPdf.length > 0 && (
     <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>S.No</Text>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Cracker Name</Text>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Tamil Cracker Name</Text>
-      <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Qty</Text>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 14 }}>Rate (INR)</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>S.No</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Cracker Name</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Tamil Cracker Name</Text>
+      <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Qty</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Rate (INR)</Text>
     </View>
   )}
 
@@ -252,11 +252,11 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
 
         return (
           <View key={`${categoryIndex}-${itemIndex}`} style={{ flexDirection: 'row' }}>
-            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{serialNumberPdf}</Text> {/* Serial number column */}
-            <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.name}</Text>
-            <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12, fontFamily: 'Noto Sans Tamil' }}>{item.tamilName}</Text>
-            <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.quantity}</Text>
-            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
+            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{serialNumberPdf}</Text> {/* Serial number column */}
+            <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.name}</Text>
+            <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11, fontFamily: 'Noto Sans Tamil' }}>{item.tamilName}</Text>
+            <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.quantity}</Text>
+            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
           </View>
         );
       })}
@@ -272,10 +272,10 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                   <>
                     <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', marginTop: 20, fontSize: 13 }}>Special Packs & Boxes</Text>
                     <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
-                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>S.No</Text>
-                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Items</Text>
-                      <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Qty</Text>
-                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 14, borderWidth: 1, borderColor: 'black', padding: 3 }}>Rate</Text>
+                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 13, borderWidth: 1, borderColor: 'black', padding: 3 }}>S.No</Text>
+                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 13, borderWidth: 1, borderColor: 'black', padding: 3 }}>Items</Text>
+                      <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', fontSize: 13, borderWidth: 1, borderColor: 'black', padding: 3 }}>Qty</Text>
+                      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', fontSize: 13, borderWidth: 1, borderColor: 'black', padding: 3 }}>Rate</Text>
                     </View>
                     {Object.keys(groupedSplPacksItems).map((category, categoryIndex) => (
                       <View key={categoryIndex}>
@@ -284,10 +284,10 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
 
                           return (
                             <View key={`${categoryIndex}-${itemIndex}`} style={{ flexDirection: 'row' }}>
-                              <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{serialNumberGiftBoxPdf}</Text>
-                              <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{item.items}</Text>
-                              <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12}}>{item.quantity}</Text>
-                              <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 12 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
+                              <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{serialNumberGiftBoxPdf}</Text>
+                              <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.items}</Text>
+                              <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11}}>{item.quantity}</Text>
+                              <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
                             </View>
                           );
                         })}
