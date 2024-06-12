@@ -2,7 +2,7 @@ const CrackersList =[
   {
     "category": "FLOWER POTS",
     "items": [
-      { "name": "Flower Pots - Small (10 Pcs)", "rate": "55.00", "tamilName": "புஷ்வானம் / பூச்சாட்டி சிறியது" },
+      { "name": "Flower Pots - Small (10 Pcs)", "rate": "55.00", "tamilName": "புஷ்வானம் / பூச்சட்டி சிறியது" },
       { "name": "Flower Pots - Big (10 Pcs)", "rate": "75.00", "tamilName": "புஸ்வானம்/ பூச்சட்டி பெரியது" },
       { "name": "Flower Pots - Spl (10 Pcs)", "rate": "95.00", "tamilName": "புஸ்வானம்/ பூச்சட்டி ஸ்பெஷல்" },
       { "name": "Flower Pots - Ashoka (10 Pcs)", "rate": "130.00", "tamilName": "புஸ்வானம்/ பூச்சட்டி அசோகா" },
