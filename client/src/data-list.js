@@ -154,9 +154,9 @@ const CrackersList =[
         "tamilName": "4 X4 பேன்சி சக்கரம்"
       },
       {
-        "name": "Jumbing Chakkar (Choklate)",
+        "name": "Chocolate Chakkar",
         "rate": "180.00",
-        "tamilName": "குதிக்கும்  சக்கரம்"
+        "tamilName": "சாக்லேட்  சக்கரம்"
       }
     ]
   },
@@ -610,7 +610,7 @@ const CrackersList =[
         {
           "name": "Heera Koti",
           "rate": "90.00",
-          "tamilName": "பாம்பு கார்ட்டூன்"
+          "tamilName": "ஹீரா கோட்டி"
         },
         {
           "name": "Moon Light",
