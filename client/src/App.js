@@ -13,8 +13,6 @@ function App() {
   const [customerNumber, setCustomerNumber] = useState('');
   const [customerAddress, setCustomerAddress] = useState('');
   const [downloaded, setDownloaded] = useState(false);
-  const [anotherTable, setAnotherTable] = useState([]);
-  const [anotherTotalRate, setAnotherTotalRate] = useState(0);
 
 
   useEffect(()=>{
@@ -26,9 +24,10 @@ function App() {
     <BrowserRouter>
       <div>
         <Routes>
-          <Route path="/" element={<Home 
+          <Route path="/" element={
+            <Home 
           setSelectedItems={setSelectedItems} 
-          selectedItems={selectedItems} totalRate={totalRate} 
+          totalRate={totalRate} 
           setTotalRate={setTotalRate}
           crackers={crackers}
           setCrackers={setCrackers}
@@ -40,10 +39,6 @@ function App() {
           setCustomerAddress={setCustomerAddress}
           giftBoxCrackers={giftBoxCrackers}
           setGiftBoxCrackers={setGiftBoxCrackers}
-          setAnotherTable={setAnotherTable}
-          anotherTable={anotherTable}
-          setAnotherTotalRate={setAnotherTotalRate}
-          anotherTotalRate={anotherTotalRate}
            />} />
           <Route path="/confirmList" element={<ConfirmListPage 
           setSelectedItems={setSelectedItems} 
@@ -62,10 +57,6 @@ function App() {
           downloaded={downloaded}
           giftBoxCrackers={giftBoxCrackers}
           setGiftBoxCrackers={setGiftBoxCrackers}
-          setAnotherTable={setAnotherTable}
-          anotherTable={anotherTable}
-          setAnotherTotalRate={setAnotherTotalRate}
-          anotherTotalRate={anotherTotalRate}
            />} />
         </Routes>
       </div>

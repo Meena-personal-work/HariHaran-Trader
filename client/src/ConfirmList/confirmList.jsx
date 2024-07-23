@@ -15,15 +15,15 @@ Font.register({
   ]
 });
 
-const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, setDownloaded, downloaded, giftBoxCrackers, setGiftBoxCrackers, setAnotherTable, anotherTable, setAnotherTotalRate, anotherTotalRate }) => {
+const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, setDownloaded, downloaded, giftBoxCrackers, setGiftBoxCrackers }) => {
   const [selectedItemsPdf, setSelectedItemsPdf] = useState([]);
   const [GiftBoxPdf, setGiftBoxPdf] = useState([]);
 
   const [isDownloaded, setIsDownloaded] = useState(false);
   let serialNumber = 0;
   let serialNumberPdf = 0;
-  let serialNumberGiftBox = 0;
-  let serialNumberGiftBoxPdf = 0;
+  // let serialNumberGiftBox = 0;
+  // let serialNumberGiftBoxPdf = 0;
 
   const scrollRef = useRef(null);
   const navigate = useNavigate();
@@ -74,13 +74,13 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     groupedItems[currentItem.category].push(currentItem);
   });
 
-  const groupedSplPacksItems = {};
-  anotherTable.forEach(currentItem => {
-    if (!groupedSplPacksItems[currentItem.category]) {
-      groupedSplPacksItems[currentItem.category] = [];
-    }
-    groupedSplPacksItems[currentItem.category].push(currentItem);
-  });
+  // const groupedSplPacksItems = {};
+  // anotherTable.forEach(currentItem => {
+  //   if (!groupedSplPacksItems[currentItem.category]) {
+  //     groupedSplPacksItems[currentItem.category] = [];
+  //   }
+  //   groupedSplPacksItems[currentItem.category].push(currentItem);
+  // });
 
   // Function to clear the form
   const handleClearForm = () => {
@@ -90,9 +90,9 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     setCrackers([]);
     setSelectedItems([]);
     setTotalRate(0);
-    setAnotherTotalRate(0);
+    // setAnotherTotalRate(0);
     setGiftBoxCrackers([]);
-    setAnotherTable([]);
+    // setAnotherTable([]);
   };
 
   const handleDownloadComplete = () => {
@@ -237,7 +237,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                 <View>
   {selectedItemsPdf.length > 0 && (
     <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>S.No</Text>
+      <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>S.No</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Cracker Name</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Tamil Cracker Name</Text>
       <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Qty</Text>
@@ -252,7 +252,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
 
         return (
           <View key={`${categoryIndex}-${itemIndex}`} style={{ flexDirection: 'row' }}>
-            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{serialNumberPdf}</Text> {/* Serial number column */}
+            <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{serialNumberPdf}</Text> {/* Serial number column */}
             <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.name}</Text>
             <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11, fontFamily: 'Noto Sans Tamil' }}>{item.tamilName}</Text>
             <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.quantity}</Text>
@@ -267,7 +267,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
   {selectedItems.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 17 }}>Total Amount: {totalRate.toFixed(2)}</Text>}
 </View>
 
-<View>
+{/* <View>
                 {GiftBoxPdf.length > 0 && (
                   <>
                     <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', marginTop: 20, fontSize: 13 }}>Special Packs & Boxes</Text>
@@ -298,13 +298,13 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                 )}
                 {anotherTable.length > 0 && <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Total Amount Of Special Packs & Boxes : {anotherTotalRate.toFixed(2)}</Text>}
 
-                </View>
+                </View> */}
 
                 <Text style={{ fontWeight: '700', display: 'flex', alignItems: 'center', backgroundColor: '#f1eeee', fontSize: '15px', minHeight: '22px', marginTop: '40px' }}>Customer Information</Text>
                 <Text style={{ fontSize: 14, marginTop: 10, fontWeight: 'bold', wordBreak: 'break-word', width: '75%' }}>Customer Name : {customerName}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Customer Number : {customerNumber}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 6 }}>Customer Address : {customerAddress}</Text>
-                <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 15 }}>Overall Total Amount : {totalRate + anotherTotalRate}</Text>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 15 }}>Overall Total Amount : {totalRate}</Text>
 
               </Page>
             </Document>

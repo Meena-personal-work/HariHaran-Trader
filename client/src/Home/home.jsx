@@ -5,7 +5,7 @@ import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-ico
 
 import './home.css';
 
-const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, giftBoxCrackers, setGiftBoxCrackers, setAnotherTable, anotherTable, setAnotherTotalRate, anotherTotalRate }) => {
+const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, giftBoxCrackers, setGiftBoxCrackers }) => {
   const navigate = useNavigate();
 
   // Function to handle quantity change
@@ -41,21 +41,21 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
 
   };
 
-  // Function to calculate total rate for another table
-  const calculateAnotherTotalRate = (tableItems) => {
-    let total = 0;
-    tableItems.forEach(category => {
-      category.items.forEach(item => {
-        const quantity = parseInt(item.quantity) || 0;
-        const rate = parseFloat(item.rate) || 0;
-        total += quantity * rate;
-      });
-    });
-    // Apply any additional discounts or calculations as needed
+  // // Function to calculate total rate for another table
+  // const calculateAnotherTotalRate = (tableItems) => {
+  //   let total = 0;
+  //   tableItems.forEach(category => {
+  //     category.items.forEach(item => {
+  //       const quantity = parseInt(item.quantity) || 0;
+  //       const rate = parseFloat(item.rate) || 0;
+  //       total += quantity * rate;
+  //     });
+  //   });
+  //   // Apply any additional discounts or calculations as needed
 
-    // Set the total rate state for the another table
-    setAnotherTotalRate(total);
-  };
+  //   // Set the total rate state for the another table
+  //   setAnotherTotalRate(total);
+  // };
 
 
   const handleCheckboxChange = (categoryIndex, itemIndex) => {
@@ -138,11 +138,11 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
             category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
         );
 
-        const selectedGiftBoxCrackers = giftBoxCrackers.flatMap(category =>
-            category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
-        );
+        // const selectedGiftBoxCrackers = giftBoxCrackers.flatMap(category =>
+        //     category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
+        // );
 
-        setAnotherTable(selectedGiftBoxCrackers);
+        // setAnotherTable(selectedGiftBoxCrackers);
         setSelectedItems(selectedCrackers);
         navigate('/confirmList');
         document.body.scrollTop = 0;
@@ -171,47 +171,47 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
     }
 };
 
-  const handleAnotherQuantityChange = (categoryIndex, itemIndex, quantity) => {
-    const updatedGiftBoxCrackers = giftBoxCrackers.map((category, cIndex) => {
-      if (cIndex === categoryIndex) {
-        const updatedItems = category.items.map((item, iIndex) => {
-          if (iIndex === itemIndex) {
-            return { ...item, quantity };
-          }
-          return item;
-        });
-        return { ...category, items: updatedItems };
-      }
-      return category;
-    });
-    setGiftBoxCrackers(updatedGiftBoxCrackers);
-    calculateAnotherTotalRate(updatedGiftBoxCrackers);
-  };
+  // const handleAnotherQuantityChange = (categoryIndex, itemIndex, quantity) => {
+  //   const updatedGiftBoxCrackers = giftBoxCrackers.map((category, cIndex) => {
+  //     if (cIndex === categoryIndex) {
+  //       const updatedItems = category.items.map((item, iIndex) => {
+  //         if (iIndex === itemIndex) {
+  //           return { ...item, quantity };
+  //         }
+  //         return item;
+  //       });
+  //       return { ...category, items: updatedItems };
+  //     }
+  //     return category;
+  //   });
+  //   setGiftBoxCrackers(updatedGiftBoxCrackers);
+  //   // calculateAnotherTotalRate(updatedGiftBoxCrackers);
+  // };
 
-  const handleAnotherCheckboxChange = (categoryIndex, itemIndex) => {
-    const updatedGiftBox = giftBoxCrackers.map((category, cIndex) => {
-      if (cIndex === categoryIndex) {
-        const updatedItems = category.items.map((item, iIndex) => {
-          if (iIndex === itemIndex) {
-            // Toggle the checked status
-            const updatedItem = { ...item, checked: !item.checked };
-            // If the item is unchecked, set its quantity to 0
-            if (!updatedItem.checked) {
-              updatedItem.quantity = 0;
-            }
-            return updatedItem;
-          }
-          return item;
-        });
-        return { ...category, items: updatedItems };
-      }
-      return category;
-    });
-    setGiftBoxCrackers(updatedGiftBox);
+  // const handleAnotherCheckboxChange = (categoryIndex, itemIndex) => {
+  //   const updatedGiftBox = giftBoxCrackers.map((category, cIndex) => {
+  //     if (cIndex === categoryIndex) {
+  //       const updatedItems = category.items.map((item, iIndex) => {
+  //         if (iIndex === itemIndex) {
+  //           // Toggle the checked status
+  //           const updatedItem = { ...item, checked: !item.checked };
+  //           // If the item is unchecked, set its quantity to 0
+  //           if (!updatedItem.checked) {
+  //             updatedItem.quantity = 0;
+  //           }
+  //           return updatedItem;
+  //         }
+  //         return item;
+  //       });
+  //       return { ...category, items: updatedItems };
+  //     }
+  //     return category;
+  //   });
+  //   setGiftBoxCrackers(updatedGiftBox);
 
-    // Recalculate total rate after updating checkboxes
-    calculateAnotherTotalRate(updatedGiftBox);
-  };
+  //   // Recalculate total rate after updating checkboxes
+  //   calculateAnotherTotalRate(updatedGiftBox);
+  // };
 
   return (
     <div className='full-container'>
