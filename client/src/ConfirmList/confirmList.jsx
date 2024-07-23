@@ -182,7 +182,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
           </tbody>
         </table>}
       </div>
-
+{/* 
       {anotherTable?.length > 0 && <table className='table' align='center' style={{ width: '85%', marginTop: 50 }}>
         <thead>
           <tr>
@@ -220,7 +220,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
             <td className='tablecell' style={{ fontWeight: 'bold', backgroundColor: '#f1eeee' }}>₹{anotherTotalRate}</td>
           </tr>
         </tbody>
-      </table>}
+      </table>} */}
 
       <div className='button-container-confirmList'>
         <button className="Confirm-order" onClick={handleConfirmOrder}>Confirm Order</button>

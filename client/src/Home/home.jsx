@@ -334,7 +334,7 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
               </tbody>
             </table>
 
-            <table className='table' align='center' style={{ width: '85%', marginTop: 50 }}>
+            {/* <table className='table' align='center' style={{ width: '85%', marginTop: 50 }}>
               <thead>
                 <tr>
                   <td colSpan="4" style={{ fontWeight: 'bold', backgroundColor: '#f1eeee' }}>Special Packs & Boxes</td>
@@ -389,7 +389,7 @@ const Home = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, cracke
                   <td className='tablecell' style={{ fontWeight: 'bold', backgroundColor: '#f1eeee' }}>₹{anotherTotalRate}</td>
                 </tr>
               </tbody>
-            </table>
+            </table> */}
 
             <div className='button-container'>
               <button className="Place-order" onClick={handleSubmit}>Place Order</button>
