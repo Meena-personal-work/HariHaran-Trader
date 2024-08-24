@@ -14,64 +14,64 @@ const CrackersList =[
     "category": "FLOWER POTS - SPL BRANDED ITEMS",
     "items": [
       {
-        "name": "Flower Pots - Small (10 Pcs)",
+        "name": "Flower Pots - Small (10 Pcs) B",
         "rate": "65.00",
-        "tamilName": "புஷ்வானம் / பூச்சாட்டி சிறியது"
+        "tamilName": "புஷ்வானம் / பூச்சாட்டி சிறியது B"
       },
       {
-        "name": "Flower Pots - Big (10 Pcs)",
+        "name": "Flower Pots - Big (10 Pcs) B",
         "rate": "90.00",
-        "tamilName": "புஸ்வானம்/ பூச்சட்டி பெரியது"
+        "tamilName": "புஸ்வானம்/ பூச்சட்டி பெரியது B"
       },
       {
-        "name": "Flower Pots - Spl (10 Pcs)",
+        "name": "Flower Pots - Spl (10 Pcs) B",
         "rate": "130.00",
-        "tamilName": "புஸ்வானம்/ பூச்சட்டி ஸ்பெஷல்"
+        "tamilName": "புஸ்வானம்/ பூச்சட்டி ஸ்பெஷல் B"
       },
       {
-        "name": "Flower Pots - Ashoka (10 Pcs)",
+        "name": "Flower Pots - Ashoka (10 Pcs) B",
         "rate": "180.00",
-        "tamilName": "புஸ்வானம்/ பூச்சட்டி அசோகா"
+        "tamilName": "புஸ்வானம்/ பூச்சட்டி அசோகா B"
       },
       {
-        "name": "Flower Pots - Gaint (10 Pcs)",
+        "name": "Flower Pots - Gaint (10 Pcs) B",
         "rate": "230.00",
-        "tamilName": "புஷ்வானம் ஜெயிண்ட்"
+        "tamilName": "புஷ்வானம் ஜெயிண்ட் B"
       },
       {
-        "name": "Flower Pots - Dlx (5 Pcs)",
+        "name": "Flower Pots - Dlx (5 Pcs) B",
         "rate": "280.00",
-        "tamilName": "புஷ்வானம் டீலக்ஸ்"
+        "tamilName": "புஷ்வானம் டீலக்ஸ் B"
       },
       {
-        "name": "Flower Pots - Super Dlx (2 Pcs)",
+        "name": "Flower Pots - Super Dlx (2 Pcs) B",
         "rate": "180.00",
-        "tamilName": "புஷ்வானம் சூப்பர் டீலக்ஸ்"
+        "tamilName": "புஷ்வானம் சூப்பர் டீலக்ஸ் B"
       },
       {
-        "name": "Colour Coti (10 Pcs)",
+        "name": "Colour Coti (10 Pcs) B",
         "rate": "280.00",
-        "tamilName": "கலர் கோட்டி"
+        "tamilName": "கலர் கோட்டி B"
       },
       {
-        "name": "Spl Colour Coti (10 Pcs)",
+        "name": "Spl Colour Coti (10 Pcs) B",
         "rate": "370.00",
-        "tamilName": "ஸ்பெஷல் கலர் கோட்டி"
+        "tamilName": "ஸ்பெஷல் கலர் கோட்டி B"
       },
       {
-        "name": "Colour Coti Super Dlx (10 Pcs) (Bigsize)",
+        "name": "Colour Coti Super Dlx (10 Pcs) (Bigsize) B",
         "rate": "750.00",
-        "tamilName": "கலர் கோட்டி சூப்பர் டீலக்ஸ்"
+        "tamilName": "கலர் கோட்டி சூப்பர் டீலக்ஸ் B"
       },
       {
-        "name": "Welcome show - 5 Colour Function",
+        "name": "Welcome show - 5 Colour Function B",
         "rate": "550.00",
-        "tamilName": "வெல்கம் ஷோ (5 கலர் )"
+        "tamilName": "வெல்கம் ஷோ (5 கலர்) B"
       },
       {
-        "name": "Gujarat Sand Flower Pots",
+        "name": "Gujarat Sand Flower Pots B",
         "rate": "650.00",
-        "tamilName": "குஜராத் மண்சட்டி புஷ்வானம்"
+        "tamilName": "குஜராத் மண்சட்டி புஷ்வானம் B"
       }
     ]
   },
@@ -109,54 +109,54 @@ const CrackersList =[
     "category": "GROUND CHAKKARS SPL BRANDED ITEMS",
     "items": [
       {
-        "name": "Ground Chakkar - Big (10 Pcs)",
+        "name": "Ground Chakkar - Big (10 Pcs) B",
         "rate": "55.00",
-        "tamilName": "சக்கரம் பெரியது (10 Pcs)"
+        "tamilName": "சக்கரம் பெரியது (10 Pcs) B"
       },
       {
-        "name": "Ground Chakkar - Big (25 Pcs)",
+        "name": "Ground Chakkar - Big (25 Pcs) B",
         "rate": "135.00",
-        "tamilName": "சக்கரம் பெரியது (25 Pcs)"
+        "tamilName": "சக்கரம் பெரியது (25 Pcs) B"
       },
       {
-        "name": "Ground Chakkar - Asoka",
+        "name": "Ground Chakkar - Asoka B",
         "rate": "95.00",
-        "tamilName": "சக்கரம் அசோகா"
+        "tamilName": "சக்கரம் அசோகா B"
       },
       {
-        "name": "Ground Chakkar - Spl",
+        "name": "Ground Chakkar - Spl B",
         "rate": "115.00",
-        "tamilName": "சக்கரம் ஸ்பெஷல்"
+        "tamilName": "சக்கரம் ஸ்பெஷல் B"
       },
       {
-        "name": "Ground Chakkar - Dlx",
+        "name": "Ground Chakkar - Dlx B",
         "rate": "195.00",
-        "tamilName": "சக்கரம் டீலக்ஸ்"
+        "tamilName": "சக்கரம் டீலக்ஸ் B"
       },
       {
-        "name": "Ground Chakkar - Spinner",
+        "name": "Ground Chakkar - Spinner B",
         "rate": "230.00",
-        "tamilName": "பிளாஸ்டிக்  சக்கரம்"
+        "tamilName": "பிளாஸ்டிக்  சக்கரம் B"
       },
       {
-        "name": "Disco Wheel",
+        "name": "Disco Wheel B",
         "rate": "180.00",
-        "tamilName": "டிஸ்கோ சக்கரம்"
+        "tamilName": "டிஸ்கோ சக்கரம் B"
       },
       {
-        "name": "Whistling wheel",
+        "name": "Whistling wheel B",
         "rate": "230.00",
-        "tamilName": "சவுண்ட் சக்கரம்"
+        "tamilName": "சவுண்ட் சக்கரம் B"
       },
       {
-        "name": "4 X 4 Colour Star Wheel",
+        "name": "4 X 4 Colour Star Wheel B",
         "rate": "280.00",
-        "tamilName": "4 X4 பேன்சி சக்கரம்"
+        "tamilName": "4 X4 பேன்சி சக்கரம் B"
       },
       {
-        "name": "Chocolate Chakkar",
+        "name": "Chocolate Chakkar B",
         "rate": "180.00",
-        "tamilName": "சாக்லேட்  சக்கரம்"
+        "tamilName": "சாக்லேட்  சக்கரம் B"
       }
     ]
   },
@@ -943,24 +943,24 @@ const CrackersList =[
       "category": "GARLAND ITEMS - SPL COUNT",
       "items": [
         {
-          "name": "1000 Digital Wala",
+          "name": "1000 Digital Wala S",
           "rate": "250.00",
-          "tamilName": "1000 டிஜிட்டல் சரவெடி"
+          "tamilName": "1000 டிஜிட்டல் சரவெடி S"
         },
         {
-          "name": "2000 Digital Wala",
+          "name": "2000 Digital Wala S",
           "rate": "500.00",
-          "tamilName": "2000 டிஜிட்டல் சரவெடி"
+          "tamilName": "2000 டிஜிட்டல் சரவெடி S"
         },
         {
-          "name": "5000 Digital Wala",
+          "name": "5000 Digital Wala S",
           "rate": "1250.00",
-          "tamilName": "5000 டிஜிட்டல் சரவெடி"
+          "tamilName": "5000 டிஜிட்டல் சரவெடி S"
         },
         {
-          "name": "10000 Digital Wala",
+          "name": "10000 Digital Wala S",
           "rate": "2500.00",
-          "tamilName": "10000 டிஜிட்டல் சரவெடி"
+          "tamilName": "10000 டிஜிட்டல் சரவெடி S"
         }
       ]
     },
