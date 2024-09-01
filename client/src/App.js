@@ -12,8 +12,8 @@ function App() {
   const [customerName, setCustomerName] = useState('');
   const [customerNumber, setCustomerNumber] = useState('');
   const [customerAddress, setCustomerAddress] = useState('');
+  const [customerState, setCustomerState] = useState('');
   const [downloaded, setDownloaded] = useState(false);
-
 
   useEffect(()=>{
     setCrackers(CrackersList);
@@ -37,6 +37,8 @@ function App() {
           setCustomerNumber={setCustomerNumber}
           customerAddress={customerAddress}
           setCustomerAddress={setCustomerAddress}
+          customerState={customerState}
+          setCustomerState={setCustomerState}
           giftBoxCrackers={giftBoxCrackers}
           setGiftBoxCrackers={setGiftBoxCrackers}
            />} />
@@ -53,6 +55,8 @@ function App() {
           setCustomerNumber={setCustomerNumber}
           customerAddress={customerAddress}
           setCustomerAddress={setCustomerAddress}
+          customerState={customerState}
+          setCustomerState={setCustomerState}
           setDownloaded={setDownloaded}
           downloaded={downloaded}
           giftBoxCrackers={giftBoxCrackers}

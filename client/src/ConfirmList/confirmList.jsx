@@ -15,7 +15,7 @@ Font.register({
   ]
 });
 
-const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress, setDownloaded, downloaded, giftBoxCrackers, setGiftBoxCrackers }) => {
+const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress,customerState, setCustomerState, setDownloaded, downloaded, giftBoxCrackers, setGiftBoxCrackers }) => {
   const [selectedItemsPdf, setSelectedItemsPdf] = useState([]);
   const [GiftBoxPdf, setGiftBoxPdf] = useState([]);
 
@@ -87,6 +87,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     setCustomerName('');
     setCustomerNumber('');
     setCustomerAddress('');
+    setCustomerState('');
     setCrackers([]);
     setSelectedItems([]);
     setTotalRate(0);
@@ -119,7 +120,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
   return (
     <div>
       <div className='full-container-header'>
-        <h1 className='font-style-heading'>Jai Ganesh Agencies</h1>
+        <h1 className='font-style-heading'>HariHaran Trader</h1>
         <button className='edit-button' onClick={handleEdit}>Edit</button>
       </div>
       <div className='full-input-container'>
@@ -145,6 +146,13 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
               className='customer-inputbox-address-confirmList'
             >{customerAddress}</div>
           </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+
+            <span className='input-fonts'>Customer Address:</span>
+            <div
+              className='customer-inputbox-address-confirmList'
+            >{customerState}</div>
+          </div>
         </div>
       </div>
 
@@ -155,7 +163,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
               <th className='tablecell'>S.No</th>
               <th className='tablecell'>Cracker Name</th>
               <th className='tablecell' style={{ fontSize: '13px' }}>Qty</th>
-              <th className='tablecell'>Rate</th>
+              <th className='tablecell'>50% Discount Rate</th>
             </tr>
           </thead>
           <tbody>
@@ -241,7 +249,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Cracker Name</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Tamil Cracker Name</Text>
       <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Qty</Text>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Rate (INR)</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>50% Discount Rate (INR)</Text>
     </View>
   )}
 
@@ -304,6 +312,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
                 <Text style={{ fontSize: 14, marginTop: 10, fontWeight: 'bold', wordBreak: 'break-word', width: '75%' }}>Customer Name : {customerName}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', marginTop: 6 }}>Customer Number : {customerNumber}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 6 }}>Customer Address : {customerAddress}</Text>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 6 }}>Customer State : {customerState}</Text>
                 <Text style={{ fontSize: 14, fontWeight: 'bold', wordBreak: 'break-word', width: '75%', marginTop: 15 }}>Overall Total Amount : {totalRate}</Text>
 
               </Page>
