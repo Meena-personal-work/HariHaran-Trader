@@ -15,9 +15,9 @@ Font.register({
   ]
 });
 
-const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress,customerState, setCustomerState, setDownloaded, downloaded, giftBoxCrackers, setGiftBoxCrackers }) => {
+const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalRate, crackers, setCrackers, customerName, setCustomerName, customerNumber, setCustomerNumber, customerAddress, setCustomerAddress,customerState, setCustomerState, setDownloaded, downloaded }) => {
   const [selectedItemsPdf, setSelectedItemsPdf] = useState([]);
-  const [GiftBoxPdf, setGiftBoxPdf] = useState([]);
+  // const [GiftBoxPdf, setGiftBoxPdf] = useState([]);
 
   const [isDownloaded, setIsDownloaded] = useState(false);
   let serialNumber = 0;
@@ -56,12 +56,12 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     const selectedCrackers = crackers.flatMap(category =>
       category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
     );
-    const selectedCrackersGiftBox = giftBoxCrackers.flatMap(category =>
-      category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
-    );
+    // const selectedCrackersGiftBox = giftBoxCrackers.flatMap(category =>
+    //   category.items.filter(item => item.checked).map(item => ({ ...item, category: category.category }))
+    // );
 
     setSelectedItemsPdf(selectedCrackers);
-    setGiftBoxPdf(selectedCrackersGiftBox)
+    // setGiftBoxPdf(selectedCrackersGiftBox)
     scrollRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -92,7 +92,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
     setSelectedItems([]);
     setTotalRate(0);
     // setAnotherTotalRate(0);
-    setGiftBoxCrackers([]);
+    // setGiftBoxCrackers([]);
     // setAnotherTable([]);
   };
 
@@ -120,7 +120,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
   return (
     <div>
       <div className='full-container-header'>
-        <h1 className='font-style-heading'>HariHaran Trader</h1>
+        <h1 className='font-style-heading'>Ayyan's World</h1>
         <button className='edit-button' onClick={handleEdit}>Edit</button>
       </div>
       <div className='full-input-container'>
@@ -235,7 +235,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
       </div>
 
       {/* PDF Generation */}
-      {(selectedItemsPdf.length > 0 || GiftBoxPdf.length > 0) && (
+      {(selectedItemsPdf.length > 0) && (
         <PDFDownloadLink
           document={
             <Document>
