@@ -249,6 +249,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Cracker Name</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Tamil Cracker Name</Text>
       <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Qty</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Single Piece Rate</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>50% Discount Rate (INR)</Text>
     </View>
   )}
@@ -264,6 +265,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
             <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.name}</Text>
             <Text style={{ flex: 1, textAlign: 'left', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11, fontFamily: 'Noto Sans Tamil' }}>{item.tamilName}</Text>
             <Text style={{ flex: 0.3, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.quantity}</Text>
+            <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{item.rate}</Text>
             <Text style={{ flex: 1, textAlign: 'center', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 11 }}>{(item.quantity * item.rate).toFixed(2)}</Text>
           </View>
         );
