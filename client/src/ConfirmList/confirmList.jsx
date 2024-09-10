@@ -249,7 +249,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Cracker Name</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Tamil Cracker Name</Text>
       <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Qty</Text>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>50% Discount Per Box</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>50% Discount Rate Per Box</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Amount</Text>
     </View>
   )}
