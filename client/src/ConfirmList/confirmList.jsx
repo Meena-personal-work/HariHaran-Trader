@@ -120,7 +120,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
   return (
     <div>
       <div className='full-container-header'>
-        <h1 className='font-style-heading'>Ayyan's World</h1>
+        <h1 className='font-style-heading'>HARIHARAN TRADER</h1>
         <button className='edit-button' onClick={handleEdit}>Edit</button>
       </div>
       <div className='full-input-container'>
@@ -163,7 +163,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
               <th className='tablecell'>S.No</th>
               <th className='tablecell'>Cracker Name</th>
               <th className='tablecell' style={{ fontSize: '13px' }}>Qty</th>
-              <th className='tablecell'>50% Discount Rate</th>
+              <th className='tablecell'>80% Discount Rate</th>
             </tr>
           </thead>
           <tbody>
@@ -249,7 +249,7 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Cracker Name</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Tamil Cracker Name</Text>
       <Text style={{ flex: 0.3, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Qty</Text>
-      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>50% Discount Rate Per Box</Text>
+      <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>80% Discount Rate Per Box</Text>
       <Text style={{ flex: 1, textAlign: 'center', fontWeight: 'bold', borderWidth: 1, borderColor: 'black', padding: 3, fontSize: 13 }}>Amount</Text>
     </View>
   )}

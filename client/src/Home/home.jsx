@@ -264,7 +264,6 @@ const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers
     }
   };
   
-
   // const handleAnotherQuantityChange = (categoryIndex, itemIndex, quantity) => {
   //   const updatedGiftBoxCrackers = giftBoxCrackers.map((category, cIndex) => {
   //     if (cIndex === categoryIndex) {
@@ -311,7 +310,7 @@ const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers
     <div className='full-container'>
 
       <div className='full-container-header'>
-        <h1 className='font-style-heading'>Ayyan's World</h1>
+        <h1 className='font-style-heading'>HARIHARAN TRADER</h1>
 
         <div className='contact-info'>
           <div style={{ display: 'flex', color: 'white', alignItems: 'center' }}><FontAwesomeIcon icon={faLocation} className='fontawesomeiconphone' />Sivakasi</div>
@@ -390,7 +389,7 @@ const Home = ({ setSelectedItems, totalRate, setTotalRate, crackers, setCrackers
                   <th className='tablecell'>Cracker Name</th>
                   <th className='tablecell'>Quantity</th>
                   <th className='tablecell'>Original Rate</th>
-                  <th className='tablecell'>50% Discount Rate</th>
+                  <th className='tablecell'>80% Discount Rate</th>
                 </tr>
               </thead>
               <tbody>
