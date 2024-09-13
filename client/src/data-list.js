@@ -14,7 +14,7 @@ const CrackersList =[
       { "name": "Disco Wheel (5 Pcs)","originalRate" : "200",  "rate": "40.00", "tamilName": "டிஸ்கோ வீல்(5 பீஸ்)" },
       { "name": "Rio Wheel (5 Pcs)(Ay)","originalRate" : "725",  "rate": "145.00", "tamilName": "ரியோ வீல் (5 பீஸ்)" },
       { "name": "4x4 Lotus Wheel (5 Pcs)(Ay","originalRate" : "550",  "rate": "110.00", "tamilName": "4x4 லோட்டஸ் வீல்" },
-      { "name": "Plastic Chakkar (Sj)(10 Pcs)","originalRate" : "325",  "rate": "65.00", "tamilName": "பிளாஸ்டிக் சக்கரம்" },
+      { "name": "Plastic Chakkar (Sj)(10 Pcs)","originalRate" : "325",  "rate": "65.00", "tamilName": "பிளாஸ்டிக் சக்கர்" },
       { "name": "Whistling Wheel (5 Pcs)(Kr)","originalRate" : "000",  "rate": "00.00", "tamilName": "விசிலிங் வீல்(5 பீஸ்)" },
       { "name": "Whistling Chakkar (5 Pcs)(Kr)","originalRate" : "600",  "rate": "120.00", "tamilName": "விசிலிங் சக்கரம்" },
     ]
@@ -60,8 +60,8 @@ const CrackersList =[
       },
       {
           "name": "Colourkoti Window (10 Pcs)",
-          "originalRate" : "850",  
-          "rate": "170.00",
+          "originalRate" : "750",  
+          "rate": "150.00",
           "tamilName": "கலர்கோடி விண்டோ (10 பீஸ்)"
       },
 ]
@@ -88,12 +88,6 @@ const CrackersList =[
         "tamilName": "ஃபாலூடா 4 இன் 1 (5 பீஸ்)"
       },
       {
-        "name": "Bliss (5 Pcs) An",
-        "originalRate" : "1900",  
-        "rate": "380.00",
-        "tamilName": "பிளிஸ் (5 பீஸ்)"
-      },
-      {
         "name": "Angry Bird (5 in 1) An",
         "originalRate" : "2250",  
         "rate": "450.00",
@@ -111,7 +105,7 @@ const CrackersList =[
         "rate": "300.00",
         "tamilName": "கலர்கோடி (2 இன் 1)(5 பீஸ்)"
       },
- 
+  
       {
         "name": "Mega Tri Colour Pot (3 in 1) (10 Pcs)",
         "originalRate" : "2500",  
@@ -191,10 +185,10 @@ const CrackersList =[
           "tamilName": "செல்ஃபி ஸ்டிக் (5 பீஸ்)"
         },
         {
-          "name": "Ultra Candle (5 Pcs)",
-          "originalRate" : "700",
-          "rate": "140.00",
-          "tamilName": "அல்ட்ரா கேண்டில் (5 பீஸ்)"
+          "name": "Selfie Stick (3 Pcs)",
+          "originalRate" : "250",
+          "rate": "50.00",
+          "tamilName": "செல்ஃபி ஸ்டிக் (3 பீஸ்)"
         },
         {
           "name": "Pencil - 12” ★",
@@ -280,12 +274,6 @@ const CrackersList =[
           "tamilName": "½ கிலோ பேப்பர் பாம் (10 பீஸ்)"
         },
         {
-          "name": "1 Kg Paper Bomb",
-           "originalRate" : "900",
-          "rate": "180.00",
-          "tamilName": "1 கிலோ பேப்பர் பாம்"
-        },
-        {
           "name": "Raider Star (5 Pcs)",
           "originalRate" : "350",
           "rate": "70.00",
@@ -298,10 +286,10 @@ const CrackersList =[
           "tamilName": "மனியில் உள்ள பணம் (3 பீஸ்)"
         },
         {
-          "name": "Snow Patrol (1 Pcs)",
+          "name": "Money Heist (2 Pcs)",
           "originalRate" : "1050",
           "rate": "210.00",
-          "tamilName": "பிளாக் மனி (5 பீஸ்)"
+          "tamilName": "மனி ஹெய்ஸ்ட் (2 பீஸ்)"
         },
       ]
     },
@@ -436,8 +424,8 @@ const CrackersList =[
         },
         {
           "name": "Siren (3 Pcs)",
-          "originalRate" : "700",
-          "rate": "140.00",
+          "originalRate" : "800",
+          "rate": "160.00",
           "tamilName": "சைரன்(3 பீஸ்)"
         },
         {
@@ -519,12 +507,6 @@ const CrackersList =[
           "tamilName": "28 CA"
         },
         {
-          "name": "28 GT",
-          "originalRate" : "110",
-          "rate": "22.00",
-          "tamilName": "28 GT"
-        },
-        {
           "name": "56 GT",
           "originalRate" : "220",
           "rate": "45.00",
@@ -567,20 +549,20 @@ const CrackersList =[
         },
         {
           "name": "Joy - 1K (full)",
-          "originalRate" : "1250",
-          "rate": "250.00",
+          "originalRate" : "1500",
+          "rate": "300.00",
           "tamilName": "ஜாய் - 1 கே"
         },
         {
           "name": "Joy - 2K",
-          "originalRate" : "2750",
-          "rate": "550.00",
+          "originalRate" : "3000",
+          "rate": "600.00",
           "tamilName": "ஜாய் - 2 கே"
         },
         {
           "name": "Joy - 5K",
-          "originalRate" : "6250",
-          "rate": "1250.00",
+          "originalRate" : "7000",
+          "rate": "1400.00",
           "tamilName": "ஜாய் - 5 கே"
         },
         {
@@ -605,13 +587,7 @@ const CrackersList =[
           "originalRate" : "4000",
           "rate": "800.00",
           "tamilName": "5 கே சாட்"
-        },
-        {
-          "name": "10 K Shot",
-          "originalRate" : "8000",
-          "rate": "1600.00",
-          "tamilName": "10 கே சாட்"
-        },  
+        } 
       ]
     },
     {
@@ -693,25 +669,25 @@ const CrackersList =[
           "name": "Star Drop (5 Pcs) Sun",
           "originalRate" : "425",
           "rate": "85.00",
-          "tamilName": "ஸ்டார் டிராப் (5 பீஸ்)"
+          "tamilName": "ஸ்டார் டிராப்(5 பீஸ்)"
         },
         {
-          "name": "Color Changing Signal (5 Pcs) Kr ",
+          "name": "Color Changing Signal (5 Pcs) Kr",
           "originalRate" : "350",
           "rate": "70.00",
-          "tamilName": "கலர் சஞ்சிங் சிக்னல்"
+          "tamilName": "கலர் சஞ்சிங் சிக்னல்(5 பீஸ்)"
         },
         {
           "name": "Sizzler (Red & Green) Kr",
-          "originalRate" : "350",
-          "rate": "70.00",
-          "tamilName": "சிஸ்லர் (சிவப்பு & பச்சை)"
+          "originalRate" : "375",
+          "rate": "75.00",
+          "tamilName": "சிஸ்லர் (சிவப்பு & பச்சை) Kr"
         },
         {
           "name": "Feather Drops (1 Pcs) Kr",
           "originalRate" : "350",
           "rate": "70.00",
-          "tamilName": "ஃபீதர் டிராப்ஸ் (1 பீஸ்)"
+          "tamilName": "ஃபீதர் டிராப்ஸ்(1 பீஸ்)"
         },
         {
           "name": "Sizzler (Gold) Kr",
@@ -723,26 +699,26 @@ const CrackersList =[
           "name": "Apple Fountain (4 Pcs)",
           "originalRate" : "550",
           "rate": "110.00",
-          "tamilName": "ஆப்பிள் பவுன்வெடயின் (4 பீஸ்)"
+          "tamilName": "ஆப்பிள் ஃபவுண்டின்(4 பீஸ்)"
         },
         {
           "name": "Mango Fountain (4 Pcs)",
           "originalRate" : "550",
           "rate": "110.00",
-          "tamilName": "மாங்கோ பவுன்வெடயின் (4 பீஸ்)"
+          "tamilName": "மாங்கோ ஃபவுண்டின்(4 பீஸ்)"
         },
         {
           "name": "Mojo - Fountain (5 Pcs) An",
           "originalRate" : "950",
           "rate": "190.00",
-          "tamilName": "மோஜோ - பவுன்வெடயின் (5 பீஸ்)"
+          "tamilName": "மோஜோ - ஃபவுண்டின்(5 பீஸ்)"
         },
         {
           "name": "Poja - Fountain (5 Pcs) An",
           "originalRate" : "950",
           "rate": "190.00",
-          "tamilName": "பூஜா - பவுன்வெடயின் (5 பீஸ்)"
-        }
+          "tamilName": "பூஜா - ஃபவுண்டின்(5 பீஸ்)"
+        },
       ]
     },
     {
@@ -750,27 +726,21 @@ const CrackersList =[
       "items": [
         {
           "name": "Purple Dove (1 Pcs) Ay",
-          "originalRate" : "250",
-          "rate": "50.00",
-          "tamilName": "பர்பிள் டோவ் (1 பீஸ்)"
+          "originalRate" : "275",
+          "rate": "55.00",
+          "tamilName": "இரவு கலை புஷ்பம்(1 பீஸ்)"
         },
         {
           "name": "Snow Patrol (1 Pce) Ay",
-          "originalRate" : "250",
-          "rate": "50.00",
-          "tamilName": "ஸ்னோ பேட்ரோல் (1 பீஸ்)"
-        },
-        {
-          "name": "Moon Drop (5 Pcs) Sun",
-          "originalRate" : "250",
-          "rate": "50.00",
-          "tamilName": "மூன் டிராப்(5 பீஸ்)"
+          "originalRate" : "275",
+          "rate": "55.00",
+          "tamilName": "பர்பிள் டோவ்(1 பீஸ்)"
         },
         {
           "name": "Fire Drop (1 Pcs) Ay",
-          "originalRate" : "425",
-          "rate": "85.00",
-          "tamilName": "ஃபயர் டிராப் (1 பீஸ்)"
+          "originalRate" : "275",
+          "rate": "55.00",
+          "tamilName": "ஃபயர் டிராப்(1 பீஸ்)"
         },
         {
           "name": "Twin Tone (1 Pcs) Rk",
@@ -782,13 +752,13 @@ const CrackersList =[
           "name": "Jasmin Series (1 Pcs) Rk",
           "originalRate" : "450",
           "rate": "90.00",
-          "tamilName": "ஜாஸ்மின் சீரிஸ் (1 பீஸ்)"
+          "tamilName": "ஜாஸ்மின் சீரிஸ்(1 பீஸ்)"
         },
         {
           "name": "Super Star (1 Pcs) Ay",
-          "originalRate" : "450",
-          "rate": "90.00",
-          "tamilName": "சூப்பர் ஸ்டார் (1 பீஸ்)"
+          "originalRate" : "500",
+          "rate": "100.00",
+          "tamilName": "சூப்பர் ஸ்டார்(1 பீஸ்)"
         },
         {
           "name": "X-mas Tree (3 Pcs) Rk",
@@ -797,46 +767,46 @@ const CrackersList =[
           "tamilName": "எக்ஸ்-மாஸ் ட்ரீ (3 பீஸ்)"
         },
         {
-          "name": "Double Mystric (2 Pcs) Ay",
-          "originalRate" : "550",
-          "rate": "110.00",
-          "tamilName": "டபிள் மிஸ்ட்ரிக் (2 பீஸ்)"
+          "name": "Pure Gold",
+          "originalRate" : "600",
+          "rate": "120.00",
+          "tamilName": "ப்யூர் கோல்டு "
         },
         {
           "name": "Ninja Chakkar (2 Pcs) Ay",
-          "originalRate" : "425",
-          "rate": "85.00",
-          "tamilName": "நின்ஜா சக்கரம் (2 பீஸ்)"
+          "originalRate" : "450",
+          "rate": "90.00",
+          "tamilName": "நின்ஜா சக்கர்(2 பீஸ்)"
         },
         {
           "name": "Zodiac Spinner (5 Pcs) Ay",
-          "originalRate" : "650",
-          "rate": "130.00",
-          "tamilName": "ஜோடியக் ஸ்பின்னர் (5 பீஸ்)"
+          "originalRate" : "700",
+          "rate": "140.00",
+          "tamilName": "ஜோடியக் ஸ்பின்னர்  (5 பீஸ்)"
         },
         {
           "name": "Dragon Show (1 Pcs) Kr",
           "originalRate" : "400",
           "rate": "400.00",
-          "tamilName": "டிராகன் ஷோ (1 பீஸ்)"
+          "tamilName": "டிராகன் ஷோ(1 பீஸ்)"
         },
         {
-          "name": "Lemon Tree (1 Pcs) Kr",
-          "originalRate" : "375",
-          "rate": "75.00",
-          "tamilName": "லெமன் ட்ரீ (1 பீஸ்)"
+          "name": "Lemon Tree (1 Pcs)Kr",
+          "originalRate" : "400",
+          "rate": "80.00",
+          "tamilName": "லெமன் ட்ரீ(1 பீஸ்)"
         },
         {
           "name": "Water Queen (1 Pcs) S",
           "originalRate" : "750",
           "rate": "150.00",
-          "tamilName": "வாட்டர் குயின் (1 பீஸ்)"
+          "tamilName": "வாட்டர் குயின்(1 பீஸ்)"
         },
         {
           "name": "Double Attraction (1 Pcs) RK",
           "originalRate" : "1000",
           "rate": "200.00",
-          "tamilName": "டபிள் அட்ராக்ஷன் (1 பீஸ்)"
+          "tamilName": "டபிள் அட்ராக்ஷன்(1 பீஸ்)"
         },
         {
           "name": "American (1 Pcs) AN",
@@ -848,7 +818,7 @@ const CrackersList =[
           "name": "Pink Panther (1 Pcs) AN",
           "originalRate" : "700",
           "rate": "140.00",
-          "tamilName": "பிங்க் பாந்தர் (1 பீஸ்)"
+          "tamilName": "பிங்க் பாந்தர்(1 பீஸ்)"
         },
         {
           "name": "24 Carat Gold (1 Pcs) AN",
@@ -860,40 +830,40 @@ const CrackersList =[
           "name": "Rock Star (1 Pcs) AN",
           "originalRate" : "750",
           "rate": "150.00",
-          "tamilName": "ராக் ஸ்டார் (1 பீஸ்)"
+          "tamilName": "ராக் ஸ்டார்(1 பீஸ்)"
         },
         {
-          "name": "Popcorn 8\" (1 Pcs) AN",
+          "name": "Popcorn 8 (1 Pcs) AN",
           "originalRate" : "900",
           "rate": "180.00",
-          "tamilName": "பாப்கார்ன் 8\" (1 பீஸ்)"
+          "tamilName": "பாப்கார்ன் 8(1 பீஸ்)"
         },
         {
-          "name": "Feather 8\" (1 Pcs) AN",
+          "name": "Feather 8 (1 Pcs) AN",
           "originalRate" : "900",
           "rate": "180.00",
-          "tamilName": "ஃபீதர் 8\" (1 பீஸ்)"
+          "tamilName": "ஃபீதர் 8(1 பீஸ்)"
         },
         {
           "name": "Monster 4 in 1 (1 Pcs) AN",
           "originalRate" : "1250",
           "rate": "250.00",
-          "tamilName": "மாஸ்டர் 4 இன் 1 (1 பீஸ்)"
+          "tamilName": "மாஸ்டர் 4 in 1(1 பீஸ்)"
         },
         {
           "name": "Lion King 4 in 1 (1 Pcs) AN",
           "originalRate" : "1500",
           "rate": "300.00",
-          "tamilName": "லையன் கிங் 4 இன் 1 (1 பீஸ்)"
+          "tamilName": "லையன் கிங் 4 in 1(1 பீஸ்)"
         },
         {
           "name": "Incredibles 4 in 1 (1 Pcs) AN",
           "originalRate" : "1750",
           "rate": "350.00",
-          "tamilName": "இன்கிரிடிபிள்ஸ் 4 இன் 1 (1 பீஸ்)"
+          "tamilName": "இன்கிரிடிபிள்ஸ் 4 in 1(1 பீஸ்)"
         },
         {
-          "name": "Tuti Fruit (3 Pcs) AY",
+          "name": "Tuti Fruit (3 pcs) AY",
           "originalRate" : "875",
           "rate": "175.00",
           "tamilName": "டூட்டி ஃப்ரூட் (3 பீஸ்)"
@@ -908,15 +878,15 @@ const CrackersList =[
           "name": "Crackling Star (5 Pcs) AY",
           "originalRate" : "1350",
           "rate": "270.00",
-          "tamilName": "கிராக்லிங் ஸ்டார் (5 பீஸ்)"
+          "tamilName": "கிராக்லிங் ஸ்டார்(5 பீஸ்)"
         },
         {
           "name": "Manoranjan (4 Pcs) AY",
           "originalRate" : "1150",
           "rate": "230.00",
-          "tamilName": "மனோரஞ்சன் (4 பீஸ்)"
-        }
-      ]
+          "tamilName": "மனோரஞ்சன்(4 பீஸ்)"
+        },
+    ]
     },
     {
       "category": "DIGITAL LAR",
@@ -937,104 +907,97 @@ const CrackersList =[
           "name": "Crackling Express Ay",
           "originalRate" : "150",
           "rate": "30.00",
-          "tamilName": "கிராக்லிங் எக்ஸ்பிரஸ்"
-        },
-        {
-          "name": "I AM Lar",
-          "originalRate" : "500",
-          "rate": "100.00",
-          "tamilName": "1 எம் லார் "
-        },
+          "tamilName": "கிராக்லிங் எக்ஸ்பிரஸ் Ay"
+        }
       ]
     },
     {
-      "category": "COLOURFUL PEACOCK",
+      "category": "COLORFUL PEACOCK",
       "items": [
         {
           "name": "Golden Peacock (5 F)",
-          "originalRate" : "800",
-          "rate": "160.00",
-          "tamilName": "கோல்டன் பீக்காக் (5 F)"
-        },
-        {
-          "name": "Belly Dance Peacock (3F) ",
           "originalRate" : "700",
           "rate": "140.00",
-          "tamilName": "பெல்லி டான்ஸ் பீக்காக் (3F)"
+          "tamilName": "கோல்டன் புலிக்கோழி (5 F)"
         },
         {
-          "name": "Colour Peacock (6 F) ",
+          "name": "Belly Dance Peacock (3F)",
+          "originalRate" : "700",
+          "rate": "140.00",
+          "tamilName": "பெல்லி டான்ஸ் புலிக்கோழி (3F)"
+        },
+        {
+          "name": "Colour Peacock (6 F)",
           "originalRate" : "1000",
           "rate": "200.00",
-          "tamilName": "கலர் பீக்காக் (6 F)"
+          "tamilName": "கலர் புலிக்கோழி (6 F)"
         },
         {
           "name": "Bada Peacock (5 F)",
-          "originalRate" : "2150",
-          "rate": "430.00",
-          "tamilName": "படா பீக்காக் (5 பீஸ்)"
+          "originalRate" : "2250",
+          "rate": "450.00",
+          "tamilName": "படா புலிக்கோழி (5 F)"
         },
         {
           "name": "Mega Peacock (5F)Sun",
           "originalRate" : "2500",
           "rate": "500.00",
-          "tamilName": "மெகா பீக்காக் (5F)Sun"
-        }
+          "tamilName": "வைலட் ஃபிளவர்"
+        },
       ]
     },
     {
       "category": "VANITHA FIREWORKS",
       "items": [
         {
-          "name": "3D Pot (6 Pcs)",
-          "originalRate" : "800",
-          "rate": "170.00",
-          "tamilName": "3D பாட்(6 பீஸ்)"
+         "name": "3D Pot (6 Pcs)",
+          "originalRate" : "850",
+           "rate": "170.00",
+          "tamilName": "3D பாட்டில் (6 பீஸ்)"
         },
         {
           "name": "Spike",
-
-          "originalRate" : "875",
-          "rate": "175.00",
-          "tamilName": "ஸ்பைக்"
-        },
-        {
+           "originalRate" : "875",
+            "rate": "175.00",
+           "tamilName": "ஸ்பைக்"
+         },
+         {
           "name": "Fest - O",
-          "originalRate" : "600",
-          "rate": "120.00",
-          "tamilName": "ஃபெஸ்ட் - ஓ"
-        },
-        {
+           "originalRate" : "600",
+            "rate": "120.00",
+           "tamilName": "ஃபெஸ்ட் - O"
+         },
+         {
           "name": "Rope Colour",
-          "originalRate" : "750",
-          "rate": "150.00",
-          "tamilName": "ரோப் கலர்"
-        },
-        {
+           "originalRate" : "750",
+            "rate": "150.00",
+           "tamilName": "ரோப் கலர்"
+         },
+         {
           "name": "Crystal",
-          "originalRate" : "3000",
-          "rate": "600.00",
-          "tamilName": "கிரிஸ்டல்"
-        },
-        {
+           "originalRate" : "3000",
+            "rate": "600.00",
+           "tamilName": "கிரிஸ்டல்"
+         },
+         {
           "name": "Golden Duck (1 Pcs)",
-          "originalRate" : "3000",
-          "rate": "600.00",
-          "tamilName": "கோல்டன் டக் (1 பீஸ்)"
-        },
-        {
+           "originalRate" : "2750",
+            "rate": "550.00",
+           "tamilName": "கோல்டன் டக் (1 பீஸ்)"
+         },
+         {
           "name": "Poppet (5 Pcs)",
-          "originalRate" : "2600",
-          "rate": "520.00",
-          "tamilName": "பாப்பெட் (5 பீஸ்)"
-        },
-        {
+           "originalRate" : "2600",
+            "rate": "520.00",
+           "tamilName": "பாப்பெட் (5 பீஸ்)"
+         },
+         {
           "name": "Yohoo Fountain",
-          "originalRate" : "2650",
-          "rate": "530.00",
-          "tamilName": "யோஹூ பவுன்வெடயின்"
-        },
-      ]
+           "originalRate" : "2650",
+            "rate": "530.00",
+           "tamilName": "யோஹூ ஃபவுண்டின்"
+         },
+    ]
     },
     {
       "category": "MINI SKY SHOT",
@@ -1043,7 +1006,7 @@ const CrackersList =[
           "name": "7 Shot M/c (5 Pcs)",
           "originalRate" : "375",
           "rate": "75.00",
-          "tamilName": "7 ஷாட் மல்டி கலர் (5 பீஸ்)"
+          "tamilName": "7 ஷாட் எம்/சி (5 பீஸ்)"
         },
         {
           "name": "Tri Colour Ball (3 Pcs)",
@@ -1055,34 +1018,691 @@ const CrackersList =[
           "name": "Tito Spl (3 Pcs)",
           "originalRate" : "325",
           "rate": "65.00",
-          "tamilName": "டிடோ ஸ்பெஷல் (3 பீஸ்)"
+          "tamilName": "டிடோ ஸ்பிள் (3 பீஸ்)"
         },
         {
           "name": "Lazer Stick (5 Pcs)",
           "originalRate" : "390",
           "rate": "78.00",
-          "tamilName": "லேசர் ஸ்டிக் (5 பீஸ்)"
+          "tamilName": "லேசர் ஸ்டிக்(5 பீஸ்)"
         },
         {
           "name": "Sky Crackling (6 Pcs)",
           "originalRate" : "800",
           "rate": "160.00",
-          "tamilName": "ஸ்கை கிராக்லிங் (6 பீஸ்)"
+          "tamilName": "ஸ்கை கிராக்லிங்(6 பீஸ்)"
         },
         {
           "name": "Sky Chutti (5 Pcs)",
           "originalRate" : "800",
           "rate": "160.00",
-          "tamilName": "ஸ்கை சுட்டி (5 பீஸ்)"
+          "tamilName": "ஸ்கை சுட்டி(5 பீஸ்)"
         },
         {
           "name": "Penta Short (5 Pcs)",
           "originalRate" : "700",
           "rate": "140.00",
           "tamilName": "பென்டா ஷார்ட் (5 பீஸ்)"
+        },
+      ]
+    },
+    {
+      "category": "SKY OUT AERIAL",
+      "items": [
+        {
+          "name": "1¼\" Shell Sky Out",
+          "originalRate" : "150",
+          "rate": "30.00",
+          "tamilName": "1¼\" ஷெல் ஸ்கை அவுட்"
+        },
+        {
+          "name": "2\" Shell Sky Out",
+          "originalRate" : "425",
+          "rate": "85.00",
+          "tamilName": "2\" ஷெல் ஸ்கை அவுட் "
+        },
+        {
+          "name": "2¼\" Spl Funtion Skyout (An)",
+          "originalRate" : "375",
+          "rate": "75.00",
+          "tamilName": "2¼\" ஸ்பிள் பவுன்வெடயின்"
+        },
+        {
+          "name": "2½\" Triple Ball Skyout (V)",
+          "originalRate" : "1250",
+          "rate": "250.00",
+          "tamilName": "2½\" டிரிபிள் பால் ஸ்கைஅவுட்"
+        },
+        {
+          "name": "3½\" Colour Series Skyout",
+          "originalRate" : "1200",
+          "rate": "240.00",
+          "tamilName": "3½\" கலர் சீரிஸ் ஸ்கைஅவுட்"
+        },
+        {
+          "name": "4\" Special Colour (4 Clr)",
+          "originalRate" : "1875",
+          "rate": "375.00",
+          "tamilName": "4\" ஸ்பெஷல் கலர் (4 கலர்)"
+        },
+        {
+          "name": "4½\" Special Fountain (3 Clr)",
+          "originalRate" : "2500",
+          "rate": "500.00",
+          "tamilName": "4½\" ஸ்பெஷல் பவுன்வெடயின்"
+        },
+        {
+          "name": "3½\" Double Ball (2 in 1)",
+          "originalRate" : "2000",
+          "rate": "400.00",
+          "tamilName": "3½\" டபிள் பால் (2 இன் 1) "
+        },
+        {
+          "name": "3½\" Rocking",
+          "originalRate" : "1875",
+          "rate": "375.00",
+          "tamilName": "3½\" ராக்கிங்"
+        },
+        {
+          "name": "3½\" Pink Colour",
+          "originalRate" : "2000",
+          "rate": "400.00",
+          "tamilName": "3½\" பிங்க் கலர் "
+        },
+        {
+          "name": "5\" Pinkout (Vanitha)",
+          "originalRate" : "0",
+          "rate": "0.00",
+          "tamilName": "5\" பிங்கவுட் (வானிதா)"
         }
       ]
+    },
+    {
+      "category": "DOUBLE JOY SHELL OUT",
+      "items": [
+        {
+          "name": "1½ Pick Series (3 Pcs) Kr",
+          "originalRate" : "700",
+          "rate": "140.00",
+          "tamilName": "1½ பிக் சீரிஸ் (3 பீஸ்)"
+        },
+        {
+          "name": "1¾ Flower Series (3 Pcs) Kr",
+          "originalRate" : "1100",
+          "rate": "220.00",
+          "tamilName": "1¾ பூக்கள் சீரிஸ் (3 பீஸ்)"
+        },
+        {
+          "name": "2\" Shell Skyout (3 Pcs)",
+          "originalRate" : "1000",
+          "rate": "200.00",
+          "tamilName": "2\" ஷெல் ஸ்கைஅவுட் (3 பீஸ்)"
+        },
+        {
+          "name": "2¼\" Shell Krishna Mix (3 Pcs) Kr",
+          "originalRate" : "1500",
+          "rate": "300.00",
+          "tamilName": "2¼\" ஷெல் கிருஷ்ணா மிக்ஸ் (3 பீஸ்)"
+        },
+        {
+          "name": "2¼\" Shell E-Bay (3 Pcs) Kr",
+          "originalRate" : "1600",
+          "rate": "320.00",
+          "tamilName": "2¼\" ஷெல் ஈ-பே (3 பீஸ்)"
+        },
+        {
+          "name": "2¼\" Spl Colour (3 Pcs)(4V) An",
+          "originalRate" : "2125",
+          "rate": "425.00",
+          "tamilName": "2¼\" ஸ்பெஷல் கலர் (3 பீஸ்)"
+        },
+        {
+          "name": "2¾\" Spl Colour (3Pcs)(4V) An",
+          "originalRate" : "2600",
+          "rate": "520.00",
+          "tamilName": "2¾\" ஸ்பெஷல் கலர் (3 பீஸ்)"
+        },
+        {
+          "name": "4\" Aerial Out (2 Pcs) An",
+          "originalRate" : "3500",
+          "rate": "700.00",
+          "tamilName": "4\" ஏரியல் அவுட் (2 பீஸ்) "
+        },
+        {
+          "name": "2½\" Aerial Out (2 Pcs) An",
+          "originalRate" : "3750",
+          "rate": "750.00",
+          "tamilName": "4½\" ஏரியல் அவுட் (2 பீஸ்)"
+        }
+      ]
+    },
+    {
+      "category": "MULTICOLOUR SHOT",
+      "items": [
+        {
+          "name": "1½ Pick Series (3 Pcs) Kr",
+          "originalRate" : "700",
+          "rate": "140.00",
+          "tamilName": "1½ பிக் சீரிஸ் (3 பீஸ்)"
+        },
+        {
+          "name": "1¾ Flower Series (3 Pcs) Kr",
+          "originalRate" : "1100",
+          "rate": "220.00",
+          "tamilName": "1¾ பூக்கள் சீரிஸ் (3 பீஸ்)"
+        },
+        {
+          "name": "2\" Shell Skyout (3 Pcs)",
+          "originalRate" : "1000",
+          "rate": "200.00",
+          "tamilName": "2\" ஷெல் ஸ்கைஅவுட் (3 பீஸ்)"
+        },
+        {
+          "name": "2¼\" Shell Krishna Mix (3 Pcs) Kr",
+          "originalRate" : "1500",
+          "rate": "300.00",
+          "tamilName": "2¼\" ஷெல் கிருஷ்ணா மிக்ஸ் (3 பீஸ்)"
+        },
+        {
+          "name": "2¼\" Shell E-Bay (3 Pcs) Kr",
+          "originalRate" : "1600",
+          "rate": "320.00",
+          "tamilName": "2¼\" ஷெல் ஈ-பே (3 பீஸ்)"
+        },
+        {
+          "name": "2¼\" Spl Colour (3 Pcs)(4V) An",
+          "originalRate" : "2125",
+          "rate": "425.00",
+          "tamilName": "2¼\" ஸ்பெஷல் கலர் (3 பீஸ்)"
+        },
+        {
+          "name": "2¾\" Spl Colour (3Pcs)(4V) An",
+          "originalRate" : "2600",
+          "rate": "520.00",
+          "tamilName": "2¾\" ஸ்பெஷல் கலர் (3 பீஸ்)"
+        },
+        {
+          "name": "4\" Aerial Out (2 Pcs) An",
+          "originalRate" : "3500",
+          "rate": "700.00",
+          "tamilName": "4\" ஏரியல் அவுட் (2 பீஸ்) "
+        },
+        {
+          "name": "2½\" Aerial Out (2 Pcs) An",
+          "originalRate" : "3750",
+          "rate": "750.00",
+          "tamilName": "4½\" ஏரியல் அவுட் (2 பீஸ்)"
+        }
+      ]
+    },
+    {
+      "category": "MULTICOLOUR SHOT",
+      "items": [
+        {
+          "name": "12 Shot Raider",
+          "originalRate" : "600",
+          "rate": "120.00",
+          "tamilName": "12 ஷாட் ரைடர்"
+        },
+        {
+          "name": "12 Shot Flying Star",
+          "originalRate" : "800",
+          "rate": "160.00",
+          "tamilName": "12 ஷாட் பறக்கும்  ஸ்டார்"
+        },
+        {
+          "name": "12 Shot Online Series",
+          "originalRate" : "900",
+          "rate": "180.00",
+          "tamilName": "12 ஷாட் ஆன்லைன் சீரிஸ்"
+        },
+        {
+          "name": "12 Shot Mazaya Colour Star",
+          "originalRate" : "800",
+          "rate": "160.00",
+          "tamilName": "12 ஷாட் மசாயா கலர் ஸ்டார்"
+        },
+        {
+          "name": "12 Shot Queen Series",
+          "originalRate" : "1000",
+          "rate": "200.00",
+          "tamilName": "12 ஷாட் குயின் சீரிஸ்"
+        },
+        {
+          "name": "12 Shot Rang Chakkar",
+          "originalRate" : "1150",
+          "rate": "230.00",
+          "tamilName": "12 ஷாட் ரங்க் சக்கர்"
+        },
+        {
+          "name": "12 Shot Pink Colour",
+          "originalRate" : "950",
+          "rate": "190.00",
+          "tamilName": "12 ஷாட் பிங்க் கலர்"
+        },
+        {
+          "name": "12 Shot Club Mix",
+          "originalRate" : "1150",
+          "rate": "230.00",
+          "tamilName": "12 ஷாட் கிளப் மிக்ஸ்"
+        },
+        {
+          "name": "15 Shot Magic Show",
+          "originalRate" : "1750",
+          "rate": "350.00",
+          "tamilName": "15 ஷாட் மாஜிக் ஷோ"
+        },
+        {
+          "name": "25 Shot Crackling",
+          "originalRate" : "1100",
+          "rate": "220.00",
+          "tamilName": "25 ஷாட் கிராக்லிங்"
+        },
+        {
+          "name": "30 Shot Rangle Mala",
+          "originalRate" : "1750",
+          "rate": "350.00",
+          "tamilName": "30 ஷாட் ராங்கிள் மாலா"
+        },
+        {
+          "name": "30 Shot Enjoy (Kr)",
+          "originalRate" : "2400",
+          "rate": "480.00",
+          "tamilName": "30 ஷாட் என்ஜாய் (கிர்)"
+        },
+        {
+          "name": "30 Shot All Mix (Kr)",
+          "originalRate" : "2750",
+          "rate": "550.00",
+          "tamilName": "240 சாட் அரேபியன் டெலைட்"
+        },
+        {
+          "name": "30 Shot Peacock Dance",
+          "originalRate" : "2250",
+          "rate": "450.00",
+          "tamilName": "30 ஷாட் பீக்காக் டான்ஸ்"
+        },
+        {
+          "name": "60 Shot JBR",
+          "originalRate" : "3750",
+          "rate": "350.00",
+          "tamilName": "60 ஷாட் ஜேபிஆர்"
+        },
+        {
+          "name": "120 Shot JBR",
+          "originalRate" : "7000",
+          "rate": "1400.00",
+          "tamilName": "120 ஷாட் ஜேபிஆர்"
+        },
+        {
+          "name": "30 Shot All Mix (Kr)",
+          "originalRate" : "2750",
+          "rate": "550.00",
+          "tamilName": "240 சாட் அரேபியன் டெலைட்"
+        },
+        {
+          "name": "30 Shot Peacock Dance",
+          "originalRate" : "2250",
+          "rate": "450.00",
+          "tamilName": "30 ஷாட் பீக்காக் டான்ஸ்"
+        },
+        {
+          "name": "60 Shot JBR",
+          "originalRate" : "3750",
+          "rate": "750.00",
+          "tamilName": "60 ஷாட் ஜேபிஆர்"
+        },
+        {
+          "name": "120 Shot JBR",
+          "originalRate" : "7000",
+          "rate": "1400.00",
+          "tamilName": "120 ஷாட் ஜேபிஆர்"
+        },
+        {
+          "name": "240 Shot JBR",
+          "originalRate" : "14000",
+          "rate": "2800.00",
+          "tamilName": "240 ஷாட் ஜேபிஆர்"
+        },
+        {
+          "name": "Krishnalela 100 Shot",
+          "originalRate" : "9000",
+          "rate": "1800.00",
+          "tamilName": "கிருஷ்ணலேலா 100 ஷாட்"
+        },
+      ]
+    },
+    {
+      "category": "SET OUT",
+      "items": [
+        {
+          "name": "Big Show 9 Shot ",
+          "originalRate" : "2800",
+          "rate": "560.00",
+          "tamilName": "பிக் ஷோ 9 ஷாட்"
+        },
+        {
+          "name": "Magic Show 16 Shot",
+          "originalRate" : "3250",
+          "rate": "650.00",
+          "tamilName": "மாஜிக் ஷோ 16 ஷாட்"
+        },
+        {
+          "name": "Jangle Bets 18 Shot",
+          "originalRate" : "2400",
+          "rate": "480.00",
+          "tamilName": "ஜாங்கிள் பெட்ஸ் 18 ஷாட்"
+        },
+        {
+          "name": "Jack Pot 15 Shot",
+          "originalRate" : "2400",
+          "rate": "480.00",
+          "tamilName": "ஜாக் பாட்டு 15 ஷாட்"
+        },
+        {
+          "name": "Avengers (4 in 1) 2 Pipe",
+          "originalRate" : "7000",
+          "rate": "1400.00",
+          "tamilName": "அவென்ஜர்ஸ் (4 இன் 1) 2 பைப்"
+        },
+        {
+          "name": "Paries - Paries 3 Pipe",
+          "originalRate" : "21000",
+          "rate": "4200.00",
+          "tamilName": "பாரிஸ் - பாரிஸ் 3 பைப்"
+        },
+        {
+          "name": "Night Rider 10x10 2½ Pipe",
+          "originalRate" : "17500",
+          "rate": "3500.00",
+          "tamilName": "நைட் ரைடர்ஸ் 2½ ஷெல்"
+        }
+      ]
+    },
+    {
+      "category": "WHISLING SERIES",
+      "items": [
+        {
+          "name": "Musical World (10 Shot)",
+          "originalRate" : "1150",
+          "rate": "230.00",
+          "tamilName": "மியூசிக்கல் வேர்ல்ட் (10 ஷாட்)"
+        },
+        {
+          "name": "Jingle (30 Shot)",
+          "originalRate" : "3000",
+          "rate": "600.00",
+          "tamilName": "ஜிங்கிள் (30 ஷாட்)"
+        },
+        {
+          "name": "Wedding Sings (50 Shot)",
+          "originalRate" : "5000",
+          "rate": "1000.00",
+          "tamilName": "வெட்டிங் சிங்க்ஸ் (50 ஷாட்)"
+        },
+      ]
+    },
+    {
+      "category": "SPARKLERS",
+      "items": [
+        {
+          "name": "7 cm Electric Sparklers",
+          "originalRate" : "37",
+          "rate": "7.50",
+          "tamilName": "7 செ.மீ எலக்ட்ரிக் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "7 cm Colour Sparklers",
+          "originalRate" : "45",
+          "rate": "9.00",
+          "tamilName": "7 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "7 cm Red Sparklers",
+          "originalRate" : "55",
+          "rate": "11.00",
+          "tamilName": "7 செ.மீ சிவப்பு ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "10 cm Electric Sparklers",
+          "originalRate" : "70",
+          "rate": "14.00",
+          "tamilName": "10 செ.மீ எலக்ட்ரிக் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "10 cm Colour Sparklers",
+          "originalRate" : "70",
+          "rate": "14.00",
+          "tamilName": "10 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "10 cm Red Sparklers",
+          "originalRate" : "90",
+          "rate": "18.00",
+          "tamilName": "10 செ.மீ சிவப்பு ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "12 cm Colour Sparklers",
+          "originalRate" : "100",
+          "rate": "20.00",
+          "tamilName": "12 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "15 cm Electric Sparklers",
+          "originalRate" : "150",
+          "rate": "30.00",
+          "tamilName": "15 செ.மீ எலக்ட்ரிக் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "15 cm Colour Sparklers",
+          "originalRate" : "150",
+          "rate": "30.00",
+          "tamilName": "15 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "15 cm Green Sparklers",
+          "originalRate" : "180",
+          "rate": "36.00",
+          "tamilName": "15 செ.மீ பச்சை ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "15 cm Red Sparklers",
+          "originalRate" : "200",
+          "rate": "40.00",
+          "tamilName": "15 செ.மீ சிவப்பு ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "30 cm Electric Sparklers",
+          "originalRate" : "150",
+          "rate": "30.00",
+          "tamilName": "30 செ.மீ எலக்ட்ரிக் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "30 cm Colour Sparklers",
+          "originalRate" : "165",
+          "rate": "33.00",
+          "tamilName": "30 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "30 cm Green Sparklers ",
+          "originalRate" : "180",
+          "rate": "36.00",
+          "tamilName": "30 செ.மீ பச்சை ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "30 cm Red Sparklers",
+          "originalRate" : "200",
+          "rate": "40.00",
+          "tamilName": "30 செ.மீ சிவப்பு ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "50 cm Electric Sparklers",
+          "originalRate" : "700",
+          "rate": "140.00",
+          "tamilName": " 50 செ.மீ எலக்ட்ரிக் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "50 cm Colour Sparklers",
+          "originalRate" : "800",
+          "rate": "160.00",
+          "tamilName": "50 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
+        },
+        {
+          "name": "Celebration Pack (5 in 1)",
+          "originalRate" : "1500",
+          "rate": "300.00",
+          "tamilName": "செல்விபிரசன் பேக் (5 இன் 1)"
+        },
+      ]
+    },
+    {
+      "category": "FAMILY PACK",
+      "items": [
+        {
+          "name": "Silver Family (All Mix)",
+          "originalRate" : "15000",
+          "rate": "3000.00",
+          "tamilName": "சில்வர் குடும்பம்"
+        },
+        {
+          "name": "Gold Family (Economic) ★",
+          "originalRate" : "25000",
+          "rate": "4800.00",
+          "tamilName": "கோல்ட் குடும்பம்"
+        },
+        {
+          "name": "Platinum Family (Economic) ★",
+          "originalRate" : "30000",
+          "rate": "5800.00",
+          "tamilName": "பிளாட்டினம் குடும்பம்"
+        },
+        {
+          "name": "444 Family Luxury ★ ",
+          "originalRate" : "22500",
+          "rate": "4000.00",
+          "tamilName": "444 குடும்பம் லக்ஷரி"
+        },
+        {
+          "name": "555 Family Luxury ★",
+          "originalRate" : "30000",
+          "rate": "5500.00",
+          "tamilName": "555 குடும்பம் லக்ஷரி"
+        },
+        {
+          "name": "VIP Family Luxury ★",
+          "originalRate" : "35000",
+          "rate": "6500.00",
+          "tamilName": "வி.ஐ.பி குடும்பம் லக்ஷரி"
+        },
+      ]
+    },
+    {
+      "category": "GIFT BOX",
+      "items": [
+        {
+          "name": "20 Items",
+          "originalRate" : "1300",
+          "rate": "260.00",
+          "tamilName": "20 அட்டவணைகள்"
+        },
+        {
+          "name": "30 Items",
+          "originalRate" : "2250",
+          "rate": "450.00",
+          "tamilName": "30 அட்டவணைகள்"
+        },
+        {
+          "name": "40 Items",
+          "originalRate" : "3000",
+          "rate": "600.00",
+          "tamilName": "40 அட்டவணைகள்"
+        },
+        {
+          "name": "50 Items",
+          "originalRate" : "5000",
+          "rate": "1000.00",
+          "tamilName": "50 அட்டவணைகள்"
+        },
+      ]
+    },
+    {
+      "category": "MATCH BOX & ROLL CAP & HUNTER GUN",
+      "items": [
+        {
+          "name": "Twyle (5 in 1)",
+          "originalRate" : "300",
+          "rate": "60.00",
+          "tamilName": "டிவைல் (5 இன் 1)"
+        },
+        {
+          "name": "Pops (5 in 1)",
+          "originalRate" : "350",
+          "rate": "70.00",
+          "tamilName": " பாப்ஸ் (5 இன் 1)"
+        },
+        {
+          "name": "Josh (5 in 1)",
+          "originalRate" : "450",
+          "rate": "90.00",
+          "tamilName": "ஜோஷ் (5 இன் 1)"
+        },
+        {
+          "name": "Rainbow (5 in 1)",
+          "originalRate" : "1000",
+          "rate": "200.00",
+          "tamilName": "ரெயின்போ (5 இன் 1)"
+        },
+        {
+          "name": "Dasara (10 in 1)",
+          "originalRate" : "1100",
+          "rate": "220.00",
+          "tamilName": "தசரா (10 இன் 1)"
+        },
+        {
+          "name": "Roll Cap Ayyan",
+          "originalRate" : "450",
+          "rate": "80.00",
+          "tamilName": "ரோல் காப் அய்யன்"
+        },
+        {
+          "name": "Hunter Gun with Ring",
+          "originalRate" : "450",
+          "rate": "90.00",
+          "tamilName": "ஹண்டர் கன் வித் ரிங்"
+        },
+        {
+          "name": "Snake Tablet Big",
+          "originalRate" : "200",
+          "rate": "40.00",
+          "tamilName": "பாம்பு மாத்திரை யோசனை"
+        },
+        {
+          "name": "Snake Anaconda",
+          "originalRate" : "500",
+          "rate": "100.00",
+          "tamilName": "அநகோண்டா பாம்பு மாத்திரை"
+        },
+        {
+          "name": "Ring Gun (Plastic Toy Gun)",
+          "originalRate" : "300",
+          "rate": "60.00",
+          "tamilName": "ரிங் கன் (பிளாஸ்டிக் டாய் கன்)"
+        },
+        {
+          "name": "Roll Gun (Plastic Toy Gun)",
+          "originalRate" : "300",
+          "rate": "60.00",
+          "tamilName": "ரோல் கன் (பிளாஸ்டிக் டாய் கன்)"
+        },
+        {
+          "name": "Ring Only (9 Circle)",
+          "originalRate" : "50",
+          "rate": "10.00",
+          "tamilName": "ரிங் ஒன்லி (9 வட்டம்)"
+        },
+      ]
     }
+         
 ]
 
 module.exports ={
