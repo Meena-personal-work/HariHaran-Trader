@@ -82,10 +82,10 @@ const CrackersList =[
         "tamilName": "போபாய் பூச்செடி (3 இன் 1) (5 பீஸ்)"
       },
       {
-        "name": "Falooda 4 in 1 (2 Pcs) An",
+        "name": "O-Yolo Super",
         "originalRate" : "1150",
         "rate": "230.00",
-        "tamilName": "ஃபாலூடா 4 இன் 1 (5 பீஸ்)"
+        "tamilName": "ஓ-யோலோ சூப்பர்"
       },
       {
         "name": "Angry Bird (5 in 1) An",
