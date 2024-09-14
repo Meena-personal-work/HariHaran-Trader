@@ -240,8 +240,10 @@ const ConfirmListPage = ({ setSelectedItems, selectedItems, totalRate, setTotalR
           document={
             <Document>
               <Page style={{ borderWidth: 1, borderStyle: 'solid', padding: 20 }}>
+              <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' }}>HariHaran Trader Sivakasi</Text>
                 <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' }}>List Of Order Placed</Text>
                 <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', fontSize: '14px', marginTop: 12 }}>Order Number: {generateNumber()}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Order Date: {getOrderDate()}</Text>
+                <Text style={{ fontWeight: 'bold', marginBottom: 10, textAlign: 'center', fontSize: '14px', marginTop: 12 }}>Mobile Number: 9444324237</Text>
                 <View>
   {selectedItemsPdf.length > 0 && (
     <View style={{ flexDirection: 'row', marginTop: 3, backgroundColor: '#f1eeee' }}>
