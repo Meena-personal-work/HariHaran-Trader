@@ -59,8 +59,8 @@ const CrackersList =[
       },
       {
           "name": "Colourkoti Window (10 Pcs)",
-          "originalRate" : "750",  
-          "rate": "150.00",
+          "originalRate" : "850",  
+          "rate": "170.00",
           "tamilName": "கலர்கோடி விண்டோ (10 பீஸ்)"
       },
 ]
@@ -283,13 +283,7 @@ const CrackersList =[
           "originalRate" : "800",
           "rate": "160.00",
           "tamilName": "மனியில் இன் பணம் (3 பீஸ்)"
-        },
-        {
-          "name": "Money Heist (2 Pcs)",
-          "originalRate" : "1050",
-          "rate": "210.00",
-          "tamilName": "மனி ஹெய்ஸ்ட் (2 பீஸ்)"
-        },
+        }
       ]
     },
     {
@@ -530,8 +524,8 @@ const CrackersList =[
         },
         {
           "name": "Joy - 200",
-          "originalRate" : "275",
-          "rate": "55.00",
+          "originalRate" : "300",
+          "rate": "60.00",
           "tamilName": "ஜாய் - 200"
         },
         {
@@ -565,13 +559,13 @@ const CrackersList =[
       "items": [
         {
           "name": "1 K Shot",
-          "originalRate" : "700",
-          "rate": "140.00",
+          "originalRate" : "750",
+          "rate": "150.00",
           "tamilName": "1 கே சாட்"
         },
         {
           "name": "5K Shot",
-          "originalRate" : "4000",
+          "originalRate" : "4500",
           "rate": "800.00",
           "tamilName": "5 கே சாட்"
         } 
@@ -612,14 +606,14 @@ const CrackersList =[
         },
         {
           "name": "Drone (5 Pcs) Kr",
-          "originalRate" : "650",
-          "rate": "130.00",
+          "originalRate" : "750",
+          "rate": "150.00",
           "tamilName": "ட்ரோன்  Kr(5 பீஸ்)"
         },
         {
           "name": "Helicopter (5 Pcs) Ay",
-          "originalRate" : "340",
-          "rate": "65.00",
+          "originalRate" : "350",
+          "rate": "70.00",
           "tamilName": "ஹெலிகாப்டர்  Ay (5 பீஸ்)"
         },
         {
@@ -660,8 +654,8 @@ const CrackersList =[
         },
         {
           "name": "Color Changing Signal (5 Pcs) Kr",
-          "originalRate" : "350",
-          "rate": "70.00",
+          "originalRate" : "375",
+          "rate": "75.00",
           "tamilName": "கலர் சஞ்சிங் சிக்னல்(5 பீஸ்)"
         },
         {
@@ -863,8 +857,8 @@ const CrackersList =[
         },
         {
           "name": "Crackling Star (5 Pcs) AY",
-          "originalRate" : "1350",
-          "rate": "270.00",
+          "originalRate" : "1500",
+          "rate": "300.00",
           "tamilName": "கிராக்லிங் ஸ்டார்(5 பீஸ்)"
         },
         {
@@ -883,12 +877,6 @@ const CrackersList =[
           "originalRate" : "40",
           "rate": "8.00",
           "tamilName": "ஜகஜல் 28"
-        },
-        {
-          "name": "Kungfu",
-          "originalRate" : "225",
-          "rate": "45.00",
-          "tamilName": "குங்க்ஃபு"
         },
         {
           "name": "Crackling Express Ay",
@@ -1049,7 +1037,7 @@ const CrackersList =[
           "tamilName": "2\" ஷெல் ஸ்கை அவுட் "
         },
         {
-          "name": "2¼\" Spl Funtion Skyout (An)",
+          "name": "2¼\" Spl Funtion Skyout Jawa (An)",
           "originalRate" : "375",
           "rate": "75.00",
           "tamilName": "2¼\" ஸ்பிள் பவுன்வெடயின்"
@@ -1519,7 +1507,7 @@ const CrackersList =[
         {
           "name": "VIP Family Luxury ★",
           "originalRate" : "35000",
-          "rate": "6500.00",
+          "rate": "7000.00",
           "tamilName": "வி.ஐ.பி பேமிலி லக்ஷரி"
         },
       ]
@@ -1535,20 +1523,20 @@ const CrackersList =[
         },
         {
           "name": "30 Items",
-          "originalRate" : "2000",
-          "rate": "400.00",
+          "originalRate" : "2250",
+          "rate": "450.00",
           "tamilName": "30 ஐடெம்ஸ்"
         },
         {
           "name": "40 Items",
-          "originalRate" : "2750",
-          "rate": "550.00",
+          "originalRate" : "3000",
+          "rate": "600.00",
           "tamilName": "40 ஐடெம்ஸ்"
         },
         {
           "name": "50 Items",
-          "originalRate" : "4500",
-          "rate": "900.00",
+          "originalRate" : "5000",
+          "rate": "1000.00",
           "tamilName": "50 ஐடெம்ஸ்"
         },
       ]
@@ -1576,14 +1564,14 @@ const CrackersList =[
         },
         {
           "name": "Rainbow (5 in 1)",
-          "originalRate" : "900",
-          "rate": "180.00",
+          "originalRate" : "1000",
+          "rate": "200.00",
           "tamilName": "ரெயின்போ (5 இன் 1)"
         },
         {
           "name": "Dasara (10 in 1)",
-          "originalRate" : "1000",
-          "rate": "200.00",
+          "originalRate" : "1100",
+          "rate": "220.00",
           "tamilName": "தசரா (10 இன் 1)"
         },
         {
