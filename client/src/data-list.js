@@ -154,12 +154,6 @@ const CrackersList =[
         "tamilName": "ஸ்டார் கன் (An) (2 பீஸ்)"
       },
       {
-        "name": "Top Gun (2 pcs) (An)",
-        "originalRate" : "875",
-        "rate": "175.00",
-        "tamilName": "டாப் கன் (An) (2 பீஸ்)"
-      },
-      {
         "name": "Bat & Ball (1 Pcs)",
         "originalRate" : "1150",
         "rate": "230.00",
@@ -320,12 +314,6 @@ const CrackersList =[
           "tamilName": "4” தங்க லட்சுமி வெடி"
         },
         {
-          "name": "5” Mega Lakshmi Crackers",
-          "originalRate" : "160",
-          "rate": "32.00",
-          "tamilName": "5” மேகா லட்சுமி வெடி"
-        },
-        {
           "name": "6” Mega Lakshmi Crackers",
           "originalRate" : "200",
           "rate": "40.00",
@@ -348,12 +336,6 @@ const CrackersList =[
           "originalRate" : "190",
           "rate": "38.00",
           "tamilName": "4” 15 பிளை (மைக்ரோ ஃப்யூஸ்)"
-        },
-        {
-          "name": "2” Sound Big",
-          "originalRate" : "125",
-          "rate": "25.00",
-          "tamilName": "2” சவுண்ட் பெரியது"
         },
         {
           "name": "2” Sound Deluxe",
@@ -639,18 +621,6 @@ const CrackersList =[
           "originalRate" : "300",
           "rate": "60.00",
           "tamilName": "பாப் - சில்வர் (5 பீஸ்)"
-        },
-        {
-          "name": "Moon Drop (5 Pcs) Sun",
-          "originalRate" : "425",
-          "rate": "85.00",
-          "tamilName": "மூன் ட்ராப்(5 பீஸ்)"
-        },
-        {
-          "name": "Star Drop (5 Pcs) Sun",
-          "originalRate" : "425",
-          "rate": "85.00",
-          "tamilName": "ஸ்டார் ட்ராப்(5 பீஸ்)"
         },
         {
           "name": "Color Changing Signal (5 Pcs) Kr",
@@ -1191,12 +1161,6 @@ const CrackersList =[
           "tamilName": "12 ஷாட் பிங்க் கலர்"
         },
         {
-          "name": "12 Shot Club Mix",
-          "originalRate" : "1150",
-          "rate": "230.00",
-          "tamilName": "12 ஷாட் கிளப் மிக்ஸ்"
-        },
-        {
           "name": "15 Shot Magic Show",
           "originalRate" : "1750",
           "rate": "350.00",
@@ -1224,7 +1188,7 @@ const CrackersList =[
           "name": "30 Shot All Mix (Kr)",
           "originalRate" : "2750",
           "rate": "550.00",
-          "tamilName": "240 சாட் அரேபியன் டெலைட்"
+          "tamilName": "30 ஷாட் ஆல் மிஃஸ்"
         },
         {
           "name": "30 Shot Peacock Dance",
@@ -1304,12 +1268,6 @@ const CrackersList =[
           "tamilName": "ஜாங்கிள் பெட்ஸ் 18 ஷாட்"
         },
         {
-          "name": "Jack Pot 15 Shot",
-          "originalRate" : "2400",
-          "rate": "480.00",
-          "tamilName": "ஜாக் பாட்டு 15 ஷாட்"
-        },
-        {
           "name": "Avengers (4 in 1) 2 Pipe",
           "originalRate" : "7000",
           "rate": "1400.00",
@@ -1384,12 +1342,6 @@ const CrackersList =[
           "originalRate" : "70",
           "rate": "14.00",
           "tamilName": "10 செ.மீ கலர் ஸ்பார்க்லர்ஸ்"
-        },
-        {
-          "name": "10 cm Red Sparklers",
-          "originalRate" : "90",
-          "rate": "18.00",
-          "tamilName": "10 செ.மீ சிவப்பு ஸ்பார்க்லர்ஸ்"
         },
         {
           "name": "12 cm Electric Sparklers",
@@ -1557,12 +1509,6 @@ const CrackersList =[
           "tamilName": " பாப்ஸ் (5 இன் 1)"
         },
         {
-          "name": "Josh (5 in 1)",
-          "originalRate" : "450",
-          "rate": "90.00",
-          "tamilName": "ஜோஷ் (5 இன் 1)"
-        },
-        {
           "name": "Rainbow (5 in 1)",
           "originalRate" : "1000",
           "rate": "200.00",
@@ -1587,12 +1533,6 @@ const CrackersList =[
           "tamilName": "ஹண்டர் கன் வித் ரிங்"
         },
         {
-          "name": "Snake Anaconda",
-          "originalRate" : "500",
-          "rate": "100.00",
-          "tamilName": "அநகோண்டா பாம்பு மாத்திரை"
-        },
-        {
           "name": "Ring Gun (Plastic Toy Gun)",
           "originalRate" : "300",
           "rate": "60.00",
@@ -1609,6 +1549,12 @@ const CrackersList =[
           "originalRate" : "50",
           "rate": "10.00",
           "tamilName": "ரிங் ஒன்லி (9 வட்டம்)"
+        },
+        {
+          "name": "Snake Tablet(10 Box)",
+          "originalRate" : "175",
+          "rate": "35.00",
+          "tamilName": "10 பெட்டிகள்"
         },
       ]
     }
