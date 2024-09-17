@@ -1209,30 +1209,6 @@ const CrackersList =[
           "tamilName": "120 ஷாட் ஜேபிஆர்"
         },
         {
-          "name": "30 Shot All Mix (Kr)",
-          "originalRate" : "2750",
-          "rate": "550.00",
-          "tamilName": "30 ஷாட் ஆல் மிஃஸ்"
-        },
-        {
-          "name": "30 Shot Peacock Dance",
-          "originalRate" : "2250",
-          "rate": "450.00",
-          "tamilName": "30 ஷாட் பீக்காக் டான்ஸ்"
-        },
-        {
-          "name": "60 Shot JBR",
-          "originalRate" : "3750",
-          "rate": "750.00",
-          "tamilName": "60 ஷாட் ஜேபிஆர்"
-        },
-        {
-          "name": "120 Shot JBR",
-          "originalRate" : "7000",
-          "rate": "1400.00",
-          "tamilName": "120 ஷாட் ஜேபிஆர்"
-        },
-        {
           "name": "240 Shot JBR",
           "originalRate" : "14000",
           "rate": "2800.00",
