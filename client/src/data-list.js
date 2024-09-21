@@ -1199,7 +1199,7 @@ const CrackersList =[
         {
           "name": "60 Shot JBR",
           "originalRate" : "3750",
-          "rate": "350.00",
+          "rate": "750.00",
           "tamilName": "60 ஷாட் ஜேபிஆர்"
         },
         {
@@ -1522,8 +1522,8 @@ const CrackersList =[
         },
         {
           "name": "Ring Only (9 Circle)",
-          "originalRate" : "50",
-          "rate": "10.00",
+          "originalRate" : "40",
+          "rate": "8.00",
           "tamilName": "ரிங் ஒன்லி (9 வட்டம்)"
         },
         {
