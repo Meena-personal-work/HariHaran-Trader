@@ -1403,16 +1403,16 @@ const CrackersList =[
       "category": "FAMILY PACK",
       "items": [
         {
-          "name": "Silver Family (All Mix)",
-          "originalRate" : "15000",
-          "rate": "3000.00",
-          "tamilName": "சில்வர் பேமிலி"
+          "name": "Hero Family (All Mix)",
+          "originalRate" : "17500",
+          "rate": "3500.00",
+          "tamilName": "ஹீரோ பேமிலி"
         },
         {
-          "name": "Gold Family (Economic) ★",
+          "name": "King Family (Economic) ★",
           "originalRate" : "25000",
-          "rate": "4800.00",
-          "tamilName": "கோல்ட் பேமிலி"
+          "rate": "5000.00",
+          "tamilName": "கிங் பேமிலி"
         },
         {
           "name": "Platinum Family (Economic) ★",
@@ -1533,8 +1533,48 @@ const CrackersList =[
           "tamilName": "10 பெட்டிகள்"
         },
       ]
-    }
-         
+    },
+    {
+      "category": "2024 VADIVEL",
+      "items": [
+        {
+          "name": "Avengers",
+          "originalRate" : "425",
+          "rate": "85.00",
+          "tamilName": "அவேஞ்சர்ஸ்"
+        },
+        {
+          "name": "Super Delux",
+          "originalRate" : "450",
+          "rate": "90.00",
+          "tamilName": "சூப்பர் டீலக்ஸ்"
+        },
+        {
+          "name": "Fire Egg",
+          "originalRate" : "750",
+          "rate": "150.00",
+          "tamilName": "ஃபையர் எக்"
+        },
+        {
+          "name": "Bad Boy",
+          "originalRate" : "1450",
+          "rate": "290.00",
+          "tamilName": "பேட் பாய்"
+        },
+        {
+          "name": "Whistting Deixes",
+          "originalRate" : "375",
+          "rate": "75.00",
+          "tamilName": "விஸ்ட்டிங் டெய்சஸ்"
+        },
+        {
+          "name": "12 Shot Roling Stone",
+          "originalRate" : "1000",
+          "rate": "200.00",
+          "tamilName": "12 ஷாட் ரோலிங் ஸ்டோன்"
+        },
+      ]
+    }         
 ]
 
 module.exports ={
