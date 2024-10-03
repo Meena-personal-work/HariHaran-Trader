@@ -1397,6 +1397,30 @@ const CrackersList =[
           "rate": "300.00",
           "tamilName": "செல்விபிரசன் பேக் (5 இன் 1)"
         },
+        {
+          "name": "NANO Sparklers",
+          "originalRate" : "200",
+          "rate": "40.00",
+          "tamilName": "50 ஐடெம்ஸ்"
+        },
+        {
+          "name": "Lovely Sparklers",
+          "originalRate" : "550",
+          "rate": "110.00",
+          "tamilName": "50 ஐடெம்ஸ்"
+        },
+        {
+          "name": "25 cm Rotating Sparklers",
+          "originalRate" : "950",
+          "rate": "190.00",
+          "tamilName": "50 ஐடெம்ஸ்"
+        },
+        {
+          "name": "30 cm Tancing Rose",
+          "originalRate" : "1150",
+          "rate": "230.00",
+          "tamilName": "50 ஐடெம்ஸ்"
+        },
       ]
     },
     {
@@ -1467,6 +1491,30 @@ const CrackersList =[
           "rate": "1000.00",
           "tamilName": "50 ஐடெம்ஸ்"
         },
+        {
+          "name": "Piyo Kart 30 Items",
+          "originalRate" : "3750",
+          "rate": "750.00",
+          "tamilName": "பியோ கார்ட்"
+        },
+        {
+          "name": "HD Celebration 35 Items",
+          "originalRate" : "4250",
+          "rate": "850.00",
+          "tamilName": "HD செலிபிரேஷன்"
+        },
+        {
+          "name": "Minion 40 Items",
+          "originalRate" : "5000",
+          "rate": "1000.00",
+          "tamilName": "மினியன்ஸ்"
+        },
+        {
+          "name": "Oscar",
+          "originalRate" : "12250",
+          "rate": "2500.00",
+          "tamilName": "ஆஸ்கார்"
+        }
       ]
     },
     {
